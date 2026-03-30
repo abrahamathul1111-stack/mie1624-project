@@ -1,0 +1,6 @@
+scenario,quarter_index,quarter,country,composite_score_p10,composite_score_median,composite_score_p90,rank_p10,rank_median,rank_p90,composite_score_delta_vs_baseline,rank_delta_vs_baseline,composite_score_delta_vs_start,rank_delta_vs_start
+baseline,2,2026Q2,Canada,32.86445341959999,32.86445341959999,32.86445341959999,5.0,5.0,5.0,0.0,0.0,0.0,0.0
+rec1_only,2,2026Q2,Canada,32.86445341959999,32.86445341959999,32.86445341959999,5.0,5.0,5.0,0.0,0.0,0.0,0.0
+rec2_only,2,2026Q2,Canada,32.86445341959999,32.86445341959999,32.86445341959999,5.0,5.0,5.0,0.0,0.0,0.0,0.0
+rec3_only,2,2026Q2,Canada,32.86445341959999,32.86445341959999,32.86445341959999,5.0,5.0,5.0,0.0,0.0,0.0,0.0
+all_recommendations,2,2026Q2,Canada,32.86445341959999,32.86445341959999,32.86445341959999,5.0,5.0,5.0,0.0,0.0,0.0,0.0

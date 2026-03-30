@@ -1,0 +1,41 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Interactive Dashboard Links</title>
+  <style>
+    :root { --bg:#f8fafc; --panel:#ffffff; --ink:#0f172a; --muted:#475569; --border:#e2e8f0; --accent:#1d4ed8; }
+    * { box-sizing: border-box; }
+    body { margin:0; font-family: "Segoe UI", Inter, system-ui, sans-serif; background:var(--bg); color:var(--ink); }
+    .wrap { max-width: 760px; margin: 64px auto; padding: 0 20px; }
+    .card { background:var(--panel); border:1px solid var(--border); border-radius:14px; padding:24px; }
+    h1 { margin:0 0 8px; font-size: 1.8rem; }
+    p { margin:0 0 18px; color:var(--muted); }
+    .links { display:grid; gap:12px; }
+    a {
+      display:block;
+      text-decoration:none;
+      color:var(--accent);
+      border:1px solid var(--border);
+      border-radius:10px;
+      padding:12px 14px;
+      background:#fff;
+      font-weight:600;
+    }
+    a:hover { border-color:#bfdbfe; background:#eff6ff; }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <section class="card">
+      <h1>Interactive Dashboards</h1>
+      <p>Select a dashboard to open it.</p>
+      <div class="links">
+        <a href="overview_dashboard_interactive_v2_bold.html">Executive Overview Dashboard</a>
+        <a href="timeline_dashboard_interactive_v2.html">Timeline Dashboard</a>
+      </div>
+    </section>
+  </main>
+</body>
+</html>

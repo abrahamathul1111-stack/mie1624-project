@@ -1,0 +1,261 @@
+scenario,quarter_index,quarter,kpi_order,pillar,subpillar,kpi,kpi_score_p10,kpi_score_median,kpi_score_p90
+baseline,1,2026Q1,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+baseline,1,2026Q1,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+baseline,1,2026Q1,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+baseline,1,2026Q1,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+baseline,1,2026Q1,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+baseline,1,2026Q1,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+baseline,1,2026Q1,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+baseline,1,2026Q1,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+baseline,1,2026Q1,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+baseline,1,2026Q1,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+baseline,1,2026Q1,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+baseline,1,2026Q1,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+baseline,1,2026Q1,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+baseline,1,2026Q1,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+baseline,1,2026Q1,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+baseline,1,2026Q1,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+baseline,1,2026Q1,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+baseline,1,2026Q1,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+baseline,1,2026Q1,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+baseline,1,2026Q1,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+baseline,1,2026Q1,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+baseline,1,2026Q1,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+baseline,1,2026Q1,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+baseline,1,2026Q1,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+baseline,1,2026Q1,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+baseline,1,2026Q1,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+baseline,2,2026Q2,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+baseline,2,2026Q2,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+baseline,2,2026Q2,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+baseline,2,2026Q2,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+baseline,2,2026Q2,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+baseline,2,2026Q2,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+baseline,2,2026Q2,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+baseline,2,2026Q2,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+baseline,2,2026Q2,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+baseline,2,2026Q2,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+baseline,2,2026Q2,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+baseline,2,2026Q2,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+baseline,2,2026Q2,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+baseline,2,2026Q2,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+baseline,2,2026Q2,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+baseline,2,2026Q2,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+baseline,2,2026Q2,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+baseline,2,2026Q2,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+baseline,2,2026Q2,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+baseline,2,2026Q2,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+baseline,2,2026Q2,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+baseline,2,2026Q2,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+baseline,2,2026Q2,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+baseline,2,2026Q2,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+baseline,2,2026Q2,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+baseline,2,2026Q2,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec1_only,1,2026Q1,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec1_only,1,2026Q1,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec1_only,1,2026Q1,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec1_only,1,2026Q1,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec1_only,1,2026Q1,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec1_only,1,2026Q1,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec1_only,1,2026Q1,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec1_only,1,2026Q1,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec1_only,1,2026Q1,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec1_only,1,2026Q1,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec1_only,1,2026Q1,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec1_only,1,2026Q1,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec1_only,1,2026Q1,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec1_only,1,2026Q1,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec1_only,1,2026Q1,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec1_only,1,2026Q1,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec1_only,1,2026Q1,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec1_only,1,2026Q1,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec1_only,1,2026Q1,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec1_only,1,2026Q1,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec1_only,1,2026Q1,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec1_only,1,2026Q1,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec1_only,1,2026Q1,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec1_only,1,2026Q1,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec1_only,1,2026Q1,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec1_only,1,2026Q1,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec1_only,2,2026Q2,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec1_only,2,2026Q2,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec1_only,2,2026Q2,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec1_only,2,2026Q2,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec1_only,2,2026Q2,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec1_only,2,2026Q2,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec1_only,2,2026Q2,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec1_only,2,2026Q2,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec1_only,2,2026Q2,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec1_only,2,2026Q2,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec1_only,2,2026Q2,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec1_only,2,2026Q2,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec1_only,2,2026Q2,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec1_only,2,2026Q2,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec1_only,2,2026Q2,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec1_only,2,2026Q2,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec1_only,2,2026Q2,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec1_only,2,2026Q2,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec1_only,2,2026Q2,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec1_only,2,2026Q2,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec1_only,2,2026Q2,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec1_only,2,2026Q2,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec1_only,2,2026Q2,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec1_only,2,2026Q2,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec1_only,2,2026Q2,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec1_only,2,2026Q2,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec2_only,1,2026Q1,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec2_only,1,2026Q1,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec2_only,1,2026Q1,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec2_only,1,2026Q1,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec2_only,1,2026Q1,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec2_only,1,2026Q1,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec2_only,1,2026Q1,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec2_only,1,2026Q1,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec2_only,1,2026Q1,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec2_only,1,2026Q1,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec2_only,1,2026Q1,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec2_only,1,2026Q1,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec2_only,1,2026Q1,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec2_only,1,2026Q1,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec2_only,1,2026Q1,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec2_only,1,2026Q1,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec2_only,1,2026Q1,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec2_only,1,2026Q1,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec2_only,1,2026Q1,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec2_only,1,2026Q1,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec2_only,1,2026Q1,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec2_only,1,2026Q1,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec2_only,1,2026Q1,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec2_only,1,2026Q1,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec2_only,1,2026Q1,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec2_only,1,2026Q1,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec2_only,2,2026Q2,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec2_only,2,2026Q2,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec2_only,2,2026Q2,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec2_only,2,2026Q2,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec2_only,2,2026Q2,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec2_only,2,2026Q2,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec2_only,2,2026Q2,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec2_only,2,2026Q2,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec2_only,2,2026Q2,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec2_only,2,2026Q2,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec2_only,2,2026Q2,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec2_only,2,2026Q2,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec2_only,2,2026Q2,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec2_only,2,2026Q2,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec2_only,2,2026Q2,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec2_only,2,2026Q2,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec2_only,2,2026Q2,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec2_only,2,2026Q2,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec2_only,2,2026Q2,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec2_only,2,2026Q2,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec2_only,2,2026Q2,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec2_only,2,2026Q2,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec2_only,2,2026Q2,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec2_only,2,2026Q2,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec2_only,2,2026Q2,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec2_only,2,2026Q2,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec3_only,1,2026Q1,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec3_only,1,2026Q1,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec3_only,1,2026Q1,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec3_only,1,2026Q1,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec3_only,1,2026Q1,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec3_only,1,2026Q1,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec3_only,1,2026Q1,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec3_only,1,2026Q1,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec3_only,1,2026Q1,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec3_only,1,2026Q1,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec3_only,1,2026Q1,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec3_only,1,2026Q1,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec3_only,1,2026Q1,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec3_only,1,2026Q1,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec3_only,1,2026Q1,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec3_only,1,2026Q1,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec3_only,1,2026Q1,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec3_only,1,2026Q1,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec3_only,1,2026Q1,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec3_only,1,2026Q1,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec3_only,1,2026Q1,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec3_only,1,2026Q1,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec3_only,1,2026Q1,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec3_only,1,2026Q1,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec3_only,1,2026Q1,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec3_only,1,2026Q1,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+rec3_only,2,2026Q2,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+rec3_only,2,2026Q2,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+rec3_only,2,2026Q2,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+rec3_only,2,2026Q2,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+rec3_only,2,2026Q2,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+rec3_only,2,2026Q2,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+rec3_only,2,2026Q2,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+rec3_only,2,2026Q2,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+rec3_only,2,2026Q2,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+rec3_only,2,2026Q2,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+rec3_only,2,2026Q2,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+rec3_only,2,2026Q2,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+rec3_only,2,2026Q2,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+rec3_only,2,2026Q2,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+rec3_only,2,2026Q2,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+rec3_only,2,2026Q2,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+rec3_only,2,2026Q2,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+rec3_only,2,2026Q2,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+rec3_only,2,2026Q2,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+rec3_only,2,2026Q2,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+rec3_only,2,2026Q2,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+rec3_only,2,2026Q2,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+rec3_only,2,2026Q2,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+rec3_only,2,2026Q2,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+rec3_only,2,2026Q2,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+rec3_only,2,2026Q2,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+all_recommendations,1,2026Q1,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+all_recommendations,1,2026Q1,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+all_recommendations,1,2026Q1,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+all_recommendations,1,2026Q1,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+all_recommendations,1,2026Q1,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+all_recommendations,1,2026Q1,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+all_recommendations,1,2026Q1,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+all_recommendations,1,2026Q1,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+all_recommendations,1,2026Q1,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+all_recommendations,1,2026Q1,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+all_recommendations,1,2026Q1,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+all_recommendations,1,2026Q1,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+all_recommendations,1,2026Q1,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+all_recommendations,1,2026Q1,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+all_recommendations,1,2026Q1,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+all_recommendations,1,2026Q1,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+all_recommendations,1,2026Q1,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+all_recommendations,1,2026Q1,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+all_recommendations,1,2026Q1,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+all_recommendations,1,2026Q1,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+all_recommendations,1,2026Q1,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+all_recommendations,1,2026Q1,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+all_recommendations,1,2026Q1,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+all_recommendations,1,2026Q1,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+all_recommendations,1,2026Q1,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+all_recommendations,1,2026Q1,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0
+all_recommendations,2,2026Q2,1,Implementation,Talent,Tortoise Talent Score,31.28,31.28,31.28
+all_recommendations,2,2026Q2,2,Implementation,Talent,Relative AI Skill Penetration,38.99,38.99,38.99
+all_recommendations,2,2026Q2,3,Implementation,Talent,AI Hiring Rate YoY Ratio,73.73,73.73,73.73
+all_recommendations,2,2026Q2,4,Implementation,Talent,AI Talent Concentration,35.58,35.58,35.58
+all_recommendations,2,2026Q2,5,Implementation,Talent,AI Job Postings (% of Total),27.63,27.63,27.63
+all_recommendations,2,2026Q2,6,Implementation,Talent,Net Migration Flow of AI Skills,48.96,48.96,48.96
+all_recommendations,2,2026Q2,7,Implementation,Infrastructure,Tortoise Infrastructure Score,77.05,77.05,77.05
+all_recommendations,2,2026Q2,8,Implementation,Infrastructure,Compute Hardware Index,3.61,3.61,3.61
+all_recommendations,2,2026Q2,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,0.29,0.29,0.29
+all_recommendations,2,2026Q2,10,Implementation,Infrastructure,Internet Speed,7.61,7.61,7.61
+all_recommendations,2,2026Q2,11,Implementation,Infrastructure,Energy Resilience Score,86.16,86.16,86.16
+all_recommendations,2,2026Q2,12,Implementation,Operating Environment,Tortoise Operating Environment Score,93.94,93.94,93.94
+all_recommendations,2,2026Q2,13,Implementation,Operating Environment,AI Social Media Sentiment,15.56,15.56,15.56
+all_recommendations,2,2026Q2,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,8.3,8.3,8.3
+all_recommendations,2,2026Q2,15,Implementation,Operating Environment,Open Data Score,92.86,92.86,92.86
+all_recommendations,2,2026Q2,16,Innovation,Research,Tortoise Research Score,30.67,30.67,30.67
+all_recommendations,2,2026Q2,17,Innovation,Research,AI Publications (Total),34.73,34.73,34.73
+all_recommendations,2,2026Q2,18,Innovation,Research,AI Citations (% of World Total),10.72,10.72,10.72
+all_recommendations,2,2026Q2,19,Innovation,Research,Notable AI Models,2.5,2.5,2.5
+all_recommendations,2,2026Q2,20,Innovation,Research,Academia-Industry Concentration,100.0,100.0,100.0
+all_recommendations,2,2026Q2,21,Innovation,Development,Tortoise Development Score,25.78,25.78,25.78
+all_recommendations,2,2026Q2,22,Innovation,Development,AI Patent Grants (per 100k),0.83,0.83,0.83
+all_recommendations,2,2026Q2,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,14.88,14.88,14.88
+all_recommendations,2,2026Q2,24,Investment,Commercial Ecosystem,AI Investment Activity,3.16,3.16,3.16
+all_recommendations,2,2026Q2,25,Investment,Commercial Ecosystem,AI Adoption (%),8.0,8.0,8.0
+all_recommendations,2,2026Q2,26,Investment,Government Strategy,Tortoise Government Strategy Score,100.0,100.0,100.0

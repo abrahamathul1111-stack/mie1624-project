@@ -1,0 +1,7 @@
+recommendation_id,lever_id,start_quarter,full_effect_quarter,rollout_pattern,notes
+rec1,rec1_lever1,Y1_Q1,Y2_Q1,front_loaded_then_s_curve,"Starter assumption inferred from phase-2 lag text: operational immediately, KPI movement visible after ~4+ quarters."
+rec1,rec1_lever2,Y1_Q2,Y3_Q1,front_loaded_then_decay_if_retention_weak,Starter assumption inferred from 4–20 quarter lag range; review once policy roadmap is finalized.
+rec2,rec2_lever1,Y1_Q2,Y2_Q4,slow_start_then_s_curve,Starter assumption inferred from 4–8 quarter commercialization lag.
+rec2,rec2_lever2,Y1_Q2,Y4_Q1,back_loaded,Starter assumption inferred from 8–20 quarter patent/development lag; likely needs later review.
+rec3,rec3_lever1,Y1_Q1,Y2_Q2,pilot_to_scale_s_curve,Starter assumption inferred from 2–6 quarter first visible adoption movement.
+rec3,rec3_lever2,Y1_Q2,Y2_Q2,lumpy_contract_driven,Starter assumption inferred from 4+ quarter contract-driven lag.

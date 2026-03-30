@@ -1,0 +1,100 @@
+package_path,original_repo_path,file_type,phase,required_for_run_yes_no,required_for_submission_yes_no,notes
+notebooks/submission_final_pipeline.ipynb,notebooks/reproduce_ai_competitiveness_baseline.ipynb,notebook,Phase 1-7,yes,yes,Submission notebook duplicate with phase documentation and local-file execution only
+notebooks/reproduce_ai_competitiveness_baseline_original_copy.ipynb,notebooks/reproduce_ai_competitiveness_baseline.ipynb,notebook,Phase 1,optional,yes,Verbatim duplicate reference copy of baseline notebook
+notebooks/notebook_setup.py,notebooks/notebook_setup.py,python,Phase 0,yes,yes,Notebook import bootstrap helper
+requirements.txt,requirements.txt,dependency,Phase 0,yes,yes,Package dependency specification
+src/__init__.py,src/__init__.py,python,Phase 0,yes,yes,Package root init
+src/io/__init__.py,src/io/__init__.py,python,Phase 0,yes,yes,IO namespace exports
+src/io/data_loading.py,src/io/data_loading.py,python,Phase 1,yes,yes,CSV/XLSX/parquet loading helpers
+src/io/xlsx_package.py,src/io/xlsx_package.py,python,Phase 1,yes,yes,Workbook parser used by baseline reproduction
+src/scoring/__init__.py,src/scoring/__init__.py,python,Phase 1,yes,yes,Scoring namespace exports
+src/scoring/baseline_scoring.py,src/scoring/baseline_scoring.py,python,Phase 1,yes,yes,Transitive scoring dependency imported by src/scoring/__init__.py
+src/scoring/impact_matrix.py,src/scoring/impact_matrix.py,python,Phase 3,yes,yes,Transitive scoring dependency imported by src/scoring/__init__.py
+src/scoring/baseline_reproduction.py,src/scoring/baseline_reproduction.py,python,Phase 1,yes,yes,Baseline reconstruction and validation pipeline
+src/scoring/policy_impact_matrix.py,src/scoring/policy_impact_matrix.py,python,Phase 3,yes,yes,Recommendation-to-KPI impact matrix construction
+src/simulation/__init__.py,src/simulation/__init__.py,python,Phase 4,yes,yes,Simulation namespace exports
+src/simulation/monte_carlo.py,src/simulation/monte_carlo.py,python,Phase 4,yes,yes,Transitive simulation dependency imported by src/simulation/__init__.py
+src/simulation/quarterly_simulation.py,src/simulation/quarterly_simulation.py,python,Phase 4,yes,yes,Transitive simulation dependency imported by src/simulation/__init__.py
+src/simulation/state_transition.py,src/simulation/state_transition.py,python,Phase 4,yes,yes,Quarterly Monte Carlo state-transition engine
+src/simulation/recommendation_attribution.py,src/simulation/recommendation_attribution.py,python,Phase 5,yes,yes,KPI gap reduction attribution and export figures
+data/raw/AI_Competitiveness_Rankings_and_Weights (1).xlsx,data/raw/AI_Competitiveness_Rankings_and_Weights (1).xlsx,data,Phase 1,yes,yes,Canonical baseline workbook input
+data/raw/canada_combined_kpi_weights_gaps.csv,data/raw/canada_combined_kpi_weights_gaps.csv,data,Phase 1,yes,yes,Canada gap cross-check input
+data/processed/impact_matrix_long.csv,data/processed/impact_matrix_long.csv,data,Phase 3,yes,yes,Recommendation mapping source
+data/calibration/calibration_effects.csv,data/calibration/calibration_effects.csv,data,Phase 2,yes,yes,Effect-size calibration library
+data/calibration/calibration_lags.csv,data/calibration/calibration_lags.csv,data,Phase 2,yes,yes,Lag calibration library
+data/calibration/competitor_drift.csv,data/calibration/competitor_drift.csv,data,Phase 2,yes,yes,Competitor drift priors for simulation
+data/calibration/implementation_schedule.csv,data/calibration/implementation_schedule.csv,data,Phase 2,yes,yes,Rollout schedule assumptions
+outputs/tables/baseline_country_scores.csv,outputs/tables/baseline_country_scores.csv,output,Phase 1,optional,yes,Canonical example output and simulation input
+outputs/tables/baseline_kpi_scores.csv,outputs/tables/baseline_kpi_scores.csv,output,Phase 1,optional,yes,Canonical example output and downstream input
+outputs/tables/validation_report.md,outputs/tables/validation_report.md,output,Phase 1,optional,yes,Baseline validation report sample
+outputs/tables/impact_matrix.csv,outputs/tables/impact_matrix.csv,output,Phase 3,optional,yes,Canonical example impact matrix output
+outputs/tables/impact_matrix_long.csv,outputs/tables/impact_matrix_long.csv,output,Phase 3,optional,yes,Canonical example long impact metadata output
+outputs/tables/simulation_summary.csv,outputs/tables/simulation_summary.csv,output,Phase 4,optional,yes,Canonical simulation output sample
+outputs/tables/country_quarter_scores.csv,outputs/tables/country_quarter_scores.csv,output,Phase 4,optional,yes,Canonical simulation output sample
+outputs/tables/canada_kpi_trajectories.csv,outputs/tables/canada_kpi_trajectories.csv,output,Phase 4,optional,yes,Canonical simulation output sample
+outputs/tables/canada_rank_trajectory.csv,outputs/tables/canada_rank_trajectory.csv,output,Phase 4,optional,yes,Canonical simulation output sample
+outputs/tables/scenario_comparison.csv,outputs/tables/scenario_comparison.csv,output,Phase 4,optional,yes,Canonical simulation output sample
+outputs/tables/kpi_gap_reduction_by_recommendation.csv,outputs/tables/kpi_gap_reduction_by_recommendation.csv,output,Phase 5,optional,yes,Canonical attribution output sample
+outputs/tables/kpi_gap_reduction_peer_best.csv,outputs/tables/kpi_gap_reduction_peer_best.csv,output,Phase 5,optional,yes,Canonical attribution output sample
+outputs/tables/kpi_gap_reduction_global_best.csv,outputs/tables/kpi_gap_reduction_global_best.csv,output,Phase 5,optional,yes,Canonical attribution output sample
+outputs/figures/recommendation_kpi_heatmap.png,outputs/figures/recommendation_kpi_heatmap.png,figure,Phase 7,optional,yes,Canonical final reporting figure sample
+outputs/figures/rec1_gap_reduction.png,outputs/figures/rec1_gap_reduction.png,figure,Phase 7,optional,yes,Canonical final reporting figure sample
+outputs/figures/rec2_gap_reduction.png,outputs/figures/rec2_gap_reduction.png,figure,Phase 7,optional,yes,Canonical final reporting figure sample
+outputs/figures/rec3_gap_reduction.png,outputs/figures/rec3_gap_reduction.png,figure,Phase 7,optional,yes,Canonical final reporting figure sample
+outputs/figures/combined_gap_reduction.png,outputs/figures/combined_gap_reduction.png,figure,Phase 7,optional,yes,Canonical final reporting figure sample
+docs/decisions/model_scope_v1.md,DOCS/DECISIONS/model_scope_v1.md,documentation,Phase 0,no,yes,Scope-lock reference for methodological framing
+docs/decisions/baseline_validation_targets.md,DOCS/DECISIONS/baseline_validation_targets.md,documentation,Phase 1,no,yes,Baseline validation criteria reference
+docs/decisions/calibration_notes.md,DOCS/DECISIONS/calibration_notes.md,documentation,Phase 2,no,yes,Calibration rationale reference
+docs/decisions/recommendation_kpi_mapping.md,DOCS/DECISIONS/recommendation_kpi_mapping.md,documentation,Phase 3,no,yes,Mapping rationale reference
+docs/decisions/gap_attribution_rules.md,DOCS/DECISIONS/gap_attribution_rules.md,documentation,Phase 5,no,yes,Attribution framing reference
+docs/decisions/dashboard_spec_v1.md,DOCS/DECISIONS/dashboard_spec_v1.md,documentation,Phase 6,no,yes,Dashboard relevance reference only
+README_SUBMISSION.md,N/A,documentation,Phase 0,no,yes,Submission package overview
+run_instructions.md,N/A,documentation,Phase 0,no,yes,Execution procedure
+checks/included_vs_excluded.md,N/A,documentation,Phase 0,no,yes,Inclusion and exclusion rationale
+checks/notebook_dependency_map.md,N/A,documentation,Phase 0,no,yes,Notebook-to-file dependency trace
+checks/package_qa_summary.md,N/A,documentation,Phase 0,no,yes,Final package QA outcome
+docs/phase_map/phase_to_files_map.md,N/A,documentation,Phase 0,no,yes,Phase traceability map
+docs/methodology/technical_method_summary.md,N/A,documentation,Phase 0,no,yes,Concise technical methodology summary
+dashboard/README_DASHBOARD.md,N/A,documentation,Phase 6,no,yes,Dashboard component overview
+dashboard/run_dashboard.md,N/A,documentation,Phase 6,no,yes,Dashboard access and optional rebuild instructions
+dashboard/src/app/dashboard_overview_copy.py,app/dashboard_overview_copy.py,python,Phase 6,no,yes,Dashboard source snapshot for overview Streamlit copy
+dashboard/src/app/dashboard_timeline_copy.py,app/dashboard_timeline_copy.py,python,Phase 6,no,yes,Dashboard source snapshot for timeline Streamlit copy
+dashboard/src/app/export_dashboard_copies_html_v2.py,app/export_dashboard_copies_html_v2.py,python,Phase 6,no,yes,Dashboard source snapshot for HTML export pipeline
+dashboard/src/src/dashboard/__init__.py,src/dashboard/__init__.py,python,Phase 6,no,yes,Dashboard package init snapshot
+dashboard/src/src/dashboard/dashboard_config.py,src/dashboard/dashboard_config.py,python,Phase 6,no,yes,Dashboard styling and scenario config snapshot
+dashboard/src/src/dashboard/load_dashboard_data.py,src/dashboard/load_dashboard_data.py,python,Phase 6,no,yes,Dashboard loader and validation snapshot
+dashboard/src/src/visualization/__init__.py,src/visualization/__init__.py,python,Phase 6,no,yes,Visualization package init snapshot
+dashboard/src/src/visualization/dashboard_copy_components.py,src/visualization/dashboard_copy_components.py,python,Phase 6,no,yes,Dashboard chart and layout rendering snapshot
+dashboard/src/src/visualization/dashboard_export.py,src/visualization/dashboard_export.py,python,Phase 6,no,yes,Dashboard export helper snapshot for visualization package completeness
+dashboard/data_bundle/baseline_country_scores.csv,outputs/dashboard/dashboard_data_bundle/baseline_country_scores.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/calibration_effects.csv,outputs/dashboard/dashboard_data_bundle/calibration_effects.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/calibration_lags.csv,outputs/dashboard/dashboard_data_bundle/calibration_lags.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/canada_kpi_trajectories.csv,outputs/dashboard/dashboard_data_bundle/canada_kpi_trajectories.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/canada_rank_trajectory.csv,outputs/dashboard/dashboard_data_bundle/canada_rank_trajectory.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/country_quarter_scores.csv,outputs/dashboard/dashboard_data_bundle/country_quarter_scores.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/implementation_schedule.csv,outputs/dashboard/dashboard_data_bundle/implementation_schedule.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/kpi_gap_reduction_by_recommendation.csv,outputs/dashboard/dashboard_data_bundle/kpi_gap_reduction_by_recommendation.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/scenario_comparison.csv,outputs/dashboard/dashboard_data_bundle/scenario_comparison.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/data_bundle/success_metrics_tracking.csv,outputs/dashboard/dashboard_data_bundle/success_metrics_tracking.csv,data,Phase 6,no,yes,Dashboard bundled data input
+dashboard/outputs/overview_dashboard_interactive_v2_bold.html,outputs/dashboard/overview_dashboard_interactive_v2_bold.html,html,Phase 6,no,yes,Required final overview dashboard output
+dashboard/outputs/timeline_dashboard_interactive_v2.html,outputs/dashboard/timeline_dashboard_interactive_v2.html,html,Phase 6,no,yes,Required final timeline dashboard output
+app/dashboard_overview_copy.py,app/dashboard_overview_copy.py,python,Phase 6,no,yes,Optional rebuild/runtime support script in submission root
+app/dashboard_timeline_copy.py,app/dashboard_timeline_copy.py,python,Phase 6,no,yes,Optional rebuild/runtime support script in submission root
+app/export_dashboard_copies_html_v2.py,app/export_dashboard_copies_html_v2.py,python,Phase 6,no,yes,Optional rebuild/export support script in submission root
+src/dashboard/__init__.py,src/dashboard/__init__.py,python,Phase 6,no,yes,Optional rebuild support package init
+src/dashboard/dashboard_config.py,src/dashboard/dashboard_config.py,python,Phase 6,no,yes,Optional rebuild support config
+src/dashboard/load_dashboard_data.py,src/dashboard/load_dashboard_data.py,python,Phase 6,no,yes,Optional rebuild support data loader
+src/visualization/__init__.py,src/visualization/__init__.py,python,Phase 6,no,yes,Optional rebuild support visualization package init
+src/visualization/dashboard_copy_components.py,src/visualization/dashboard_copy_components.py,python,Phase 6,no,yes,Optional rebuild support visualization components
+src/visualization/dashboard_export.py,src/visualization/dashboard_export.py,python,Phase 6,no,yes,Optional rebuild support visualization export helper
+outputs/dashboard/dashboard_data_bundle/baseline_country_scores.csv,outputs/dashboard/dashboard_data_bundle/baseline_country_scores.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/calibration_effects.csv,outputs/dashboard/dashboard_data_bundle/calibration_effects.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/calibration_lags.csv,outputs/dashboard/dashboard_data_bundle/calibration_lags.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/canada_kpi_trajectories.csv,outputs/dashboard/dashboard_data_bundle/canada_kpi_trajectories.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/canada_rank_trajectory.csv,outputs/dashboard/dashboard_data_bundle/canada_rank_trajectory.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/country_quarter_scores.csv,outputs/dashboard/dashboard_data_bundle/country_quarter_scores.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/implementation_schedule.csv,outputs/dashboard/dashboard_data_bundle/implementation_schedule.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/kpi_gap_reduction_by_recommendation.csv,outputs/dashboard/dashboard_data_bundle/kpi_gap_reduction_by_recommendation.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/scenario_comparison.csv,outputs/dashboard/dashboard_data_bundle/scenario_comparison.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+outputs/dashboard/dashboard_data_bundle/success_metrics_tracking.csv,outputs/dashboard/dashboard_data_bundle/success_metrics_tracking.csv,data,Phase 6,no,yes,Optional rebuild support data mirror
+data/processed/success_metrics_tracking.csv,outputs/dashboard/dashboard_data_bundle/success_metrics_tracking.csv,data,Phase 6,no,yes,Success metrics file added for dashboard loader compatibility

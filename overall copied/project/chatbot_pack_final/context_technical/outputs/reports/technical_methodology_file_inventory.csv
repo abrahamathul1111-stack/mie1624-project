@@ -1,0 +1,40 @@
+phase,file_path,file_type,role,input_or_output,used_in_next_phase_yes_no,notes
+Phase 1,data/raw/AI_Competitiveness_Rankings_and_Weights (1).xlsx,data,baseline workbook source,input,no,Requires sheets KPI Scores and Weights and Final Rankings
+Phase 1,data/raw/canada_combined_kpi_weights_gaps.csv,data,Canada cross-check source,input,no,Used for baseline alignment and pillar checks
+Phase 1,src/scoring/baseline_reproduction.py,python,baseline rebuild and validation logic,input,no,Generates baseline outputs and validation report
+Phase 1,src/io/xlsx_package.py,python,deterministic workbook loader,input,no,Strict XML-based workbook parsing
+Phase 1,outputs/tables/baseline_country_scores.csv,csv,country-level baseline master output,output,yes,Feeds phases 3 4 and dashboard chips
+Phase 1,outputs/tables/baseline_kpi_scores.csv,csv,KPI-level baseline master output,output,yes,Feeds phases 3 4 5 and dashboard
+Phase 1,outputs/tables/validation_report.md,markdown,baseline QA artifact,output,no,Audit report for baseline integrity
+Phase 2,data/calibration/calibration_effects.csv,csv,policy effect-size calibration priors,input,yes,Consumed by phases 3 4 and 6
+Phase 2,data/calibration/calibration_lags.csv,csv,policy lag and ramp priors,input,yes,Consumed by phases 3 4 and 6
+Phase 2,data/calibration/competitor_drift.csv,csv,competitor drift priors,input,yes,Consumed by phase 4 simulation
+Phase 2,data/calibration/implementation_schedule.csv,csv,policy rollout timing plan,input,yes,Consumed by phases 4 and 6
+Phase 2,DOCS/DECISIONS/calibration_notes.md,markdown,calibration assumption context,input,no,Documents weak assumptions and inferred schedule note
+Phase 3,data/processed/impact_matrix_long.csv,csv,recommendation lever KPI mapping input,input,no,Contains effect_strength lag_class and directness
+Phase 3,src/scoring/policy_impact_matrix.py,python,impact metadata and matrix builder,input,no,Builds long and wide impact artifacts
+Phase 3,outputs/tables/impact_matrix_long.csv,csv,enriched recommendation KPI metadata,output,yes,Feeds phases 4 and 6
+Phase 3,outputs/tables/impact_matrix.csv,csv,wide lever by KPI coefficient matrix,output,yes,Feeds phase 4 simulation core
+Phase 4,src/simulation/state_transition.py,python,quarterly Monte Carlo simulation engine,input,no,Primary implementation for phase 4 outputs
+Phase 4,outputs/tables/simulation_summary.csv,csv,full scenario country quantile summary,output,yes,Feeds dashboard and analysis
+Phase 4,outputs/tables/country_quarter_scores.csv,csv,median scenario country trajectories,output,yes,Feeds timeline dashboard rank bars
+Phase 4,outputs/tables/canada_kpi_trajectories.csv,csv,Canada KPI p10 median p90 trajectories,output,yes,Feeds phase 5 and dashboard KPI lines
+Phase 4,outputs/tables/canada_rank_trajectory.csv,csv,Canada rank and composite trajectory quantiles,output,yes,Feeds phase 5 and dashboard banner
+Phase 4,outputs/tables/scenario_comparison.csv,csv,final-quarter scenario summary table,output,yes,Feeds dashboard summary chips
+Phase 5,src/simulation/recommendation_attribution.py,python,gap reduction attribution logic,input,no,Builds peer and global benchmark attribution outputs
+Phase 5,outputs/tables/kpi_gap_reduction_by_recommendation.csv,csv,attribution table all scenarios and benchmarks,output,yes,Feeds overview dashboard impact panel
+Phase 5,outputs/tables/kpi_gap_reduction_peer_best.csv,csv,peer benchmark attribution subset,output,yes,Used in reporting and optional dashboard context
+Phase 5,outputs/tables/kpi_gap_reduction_global_best.csv,csv,global benchmark attribution subset,output,yes,Used in reporting and optional dashboard context
+Phase 5,outputs/figures/recommendation_kpi_heatmap.png,figure,attribution visualization output,output,no,Reporting artifact
+Phase 5,outputs/figures/rec1_gap_reduction.png,figure,scenario attribution visualization output,output,no,Reporting artifact
+Phase 5,outputs/figures/rec2_gap_reduction.png,figure,scenario attribution visualization output,output,no,Reporting artifact
+Phase 5,outputs/figures/rec3_gap_reduction.png,figure,scenario attribution visualization output,output,no,Reporting artifact
+Phase 5,outputs/figures/combined_gap_reduction.png,figure,combined scenario attribution visualization output,output,no,Reporting artifact
+Phase 6,src/dashboard/dashboard_config.py,python,dashboard labels styles and text config,input,no,Defines scenario labels recommendation cards and color palette
+Phase 6,src/dashboard/load_dashboard_data.py,python,dashboard dependency loading and validation,input,no,Validates required columns and builds inventory reports
+Phase 6,src/visualization/dashboard_copy_components.py,python,streamlit dashboard chart construction,input,no,Builds overview and timeline visual components
+Phase 6,app/export_dashboard_copies_html_v2.py,python,HTML dashboard exporter,input,no,Writes standalone interactive html with embedded payload
+Phase 6,outputs/dashboard/overview_dashboard_interactive_v2_bold.html,html,final overview dashboard artifact,output,no,Presentation-facing output
+Phase 6,outputs/dashboard/timeline_dashboard_interactive_v2.html,html,final timeline dashboard artifact,output,no,Presentation-facing output
+Phase 6,outputs/reports/dashboard_traceability_matrix.csv,csv,dashboard source-to-visual traceability output,output,no,QA artifact for dashboard correctness
+Phase 6,outputs/reports/dashboard_corrections_summary.md,markdown,dashboard correction log output,output,no,Records post-audit fixes

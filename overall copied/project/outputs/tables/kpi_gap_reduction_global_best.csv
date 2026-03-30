@@ -1,0 +1,105 @@
+scenario,quarter_index,kpi_order,pillar,subpillar,kpi,benchmark_type,benchmark_label,benchmark_country,benchmark_score,baseline_canada_score,scenario_canada_score,baseline_gap,post_policy_gap,absolute_gap_reduction,percent_gap_reduction
+rec1_only,16,1,Implementation,Talent,Tortoise Talent Score,global_best,Global Best,United States of America,100.0,31.28,35.94126735773494,68.72,64.05873264226506,4.661267357734943,6.782985095656204
+rec1_only,16,2,Implementation,Talent,Relative AI Skill Penetration,global_best,Global Best,United States of America,100.0,38.99,41.04515747302733,61.01,58.95484252697267,2.0551574730273288,3.3685583888335175
+rec1_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,global_best,Global Best,India,100.0,73.73,77.45715945543054,26.269999999999996,22.542840544569458,3.727159455430538,14.187892864219789
+rec1_only,16,4,Implementation,Talent,AI Talent Concentration,global_best,Global Best,Israel,100.0,35.58,37.65790489303553,64.42,62.34209510696447,2.07790489303553,3.2255586666183325
+rec1_only,16,5,Implementation,Talent,AI Job Postings (% of Total),global_best,Global Best,Singapore,100.0,27.63,30.39280588942906,72.37,69.60719411057094,2.7628058894290604,3.817612117492138
+rec1_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,global_best,Global Best,UAE,100.0,48.96,52.52702481624659,51.04,47.47297518375341,3.5670248162465867,6.988684984809143
+rec1_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,global_best,Global Best,China,100.0,77.05,77.05,22.950000000000003,22.950000000000003,0.0,0.0
+rec1_only,16,8,Implementation,Infrastructure,Compute Hardware Index,global_best,Global Best,United States of America,100.0,3.61,3.61,96.39,96.39,0.0,0.0
+rec1_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,global_best,Global Best,China,100.0,0.29,0.29,99.71,99.71,0.0,0.0
+rec1_only,16,10,Implementation,Infrastructure,Internet Speed,global_best,Global Best,UAE,100.0,7.61,7.61,92.39,92.39,0.0,0.0
+rec1_only,16,11,Implementation,Infrastructure,Energy Resilience Score,global_best,Global Best,UAE,100.0,86.16,86.16,13.840000000000003,13.840000000000003,0.0,0.0
+rec1_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,global_best,Global Best,Canada,93.94,93.94,93.94,0.0,0.0,0.0,0.0
+rec1_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,global_best,Global Best,China,100.0,15.56,15.56,84.44,84.44,0.0,0.0
+rec1_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,global_best,Global Best,United States of America,100.0,8.3,8.3,91.7,91.7,0.0,0.0
+rec1_only,16,15,Implementation,Operating Environment,Open Data Score,global_best,Global Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec1_only,16,16,Innovation,Research,Tortoise Research Score,global_best,Global Best,United States of America,100.0,30.67,31.473141930939462,69.33,68.52685806906054,0.8031419309394607,1.1584334789260935
+rec1_only,16,17,Innovation,Research,AI Publications (Total),global_best,Global Best,China,100.0,34.73,34.73,65.27000000000001,65.27000000000001,0.0,0.0
+rec1_only,16,18,Innovation,Research,AI Citations (% of World Total),global_best,Global Best,China,100.0,10.72,10.72,89.28,89.28,0.0,0.0
+rec1_only,16,19,Innovation,Research,Notable AI Models,global_best,Global Best,United States of America,100.0,2.5,2.5,97.5,97.5,0.0,0.0
+rec1_only,16,20,Innovation,Research,Academia-Industry Concentration,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec1_only,16,21,Innovation,Development,Tortoise Development Score,global_best,Global Best,United States of America,100.0,25.78,25.78,74.22,74.22,0.0,0.0
+rec1_only,16,22,Innovation,Development,AI Patent Grants (per 100k),global_best,Global Best,South Korea,100.0,0.83,0.83,99.17,99.17,0.0,0.0
+rec1_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,global_best,Global Best,United States of America,100.0,14.88,15.705664525817452,85.12,84.29433547418255,0.8256645258174586,0.9700006177366759
+rec1_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,global_best,Global Best,United States of America,100.0,3.16,3.16,96.84,96.84,0.0,0.0
+rec1_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),global_best,Global Best,UAE,100.0,8.0,8.0,92.0,92.0,0.0,0.0
+rec1_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec2_only,16,1,Implementation,Talent,Tortoise Talent Score,global_best,Global Best,United States of America,100.0,31.28,31.28,68.72,68.72,0.0,0.0
+rec2_only,16,2,Implementation,Talent,Relative AI Skill Penetration,global_best,Global Best,United States of America,100.0,38.99,38.99,61.01,61.01,0.0,0.0
+rec2_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,global_best,Global Best,India,100.0,73.73,73.73,26.269999999999996,26.269999999999996,0.0,0.0
+rec2_only,16,4,Implementation,Talent,AI Talent Concentration,global_best,Global Best,Israel,100.0,35.58,35.58,64.42,64.42,0.0,0.0
+rec2_only,16,5,Implementation,Talent,AI Job Postings (% of Total),global_best,Global Best,Singapore,100.0,27.63,31.758431469947627,72.37,68.24156853005238,4.128431469947628,5.704617203188652
+rec2_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,global_best,Global Best,UAE,100.0,48.96,50.30576270603824,51.04,49.69423729396176,1.3457627060382364,2.6366824177865134
+rec2_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,global_best,Global Best,China,100.0,77.05,77.05,22.950000000000003,22.950000000000003,0.0,0.0
+rec2_only,16,8,Implementation,Infrastructure,Compute Hardware Index,global_best,Global Best,United States of America,100.0,3.61,3.61,96.39,96.39,0.0,0.0
+rec2_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,global_best,Global Best,China,100.0,0.29,0.29,99.71,99.71,0.0,0.0
+rec2_only,16,10,Implementation,Infrastructure,Internet Speed,global_best,Global Best,UAE,100.0,7.61,7.61,92.39,92.39,0.0,0.0
+rec2_only,16,11,Implementation,Infrastructure,Energy Resilience Score,global_best,Global Best,UAE,100.0,86.16,86.16,13.840000000000003,13.840000000000003,0.0,0.0
+rec2_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,global_best,Global Best,Canada,93.94,93.94,93.94,0.0,0.0,0.0,0.0
+rec2_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,global_best,Global Best,China,100.0,15.56,15.56,84.44,84.44,0.0,0.0
+rec2_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,global_best,Global Best,United States of America,100.0,8.3,8.3,91.7,91.7,0.0,0.0
+rec2_only,16,15,Implementation,Operating Environment,Open Data Score,global_best,Global Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec2_only,16,16,Innovation,Research,Tortoise Research Score,global_best,Global Best,United States of America,100.0,30.67,30.67,69.33,69.33,0.0,0.0
+rec2_only,16,17,Innovation,Research,AI Publications (Total),global_best,Global Best,China,100.0,34.73,34.73,65.27000000000001,65.27000000000001,0.0,0.0
+rec2_only,16,18,Innovation,Research,AI Citations (% of World Total),global_best,Global Best,China,100.0,10.72,10.72,89.28,89.28,0.0,0.0
+rec2_only,16,19,Innovation,Research,Notable AI Models,global_best,Global Best,United States of America,100.0,2.5,2.5,97.5,97.5,0.0,0.0
+rec2_only,16,20,Innovation,Research,Academia-Industry Concentration,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec2_only,16,21,Innovation,Development,Tortoise Development Score,global_best,Global Best,United States of America,100.0,25.78,26.412047592716945,74.22,73.58795240728305,0.632047592716944,0.8515866245175748
+rec2_only,16,22,Innovation,Development,AI Patent Grants (per 100k),global_best,Global Best,South Korea,100.0,0.83,0.83,99.17,99.17,0.0,0.0
+rec2_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,global_best,Global Best,United States of America,100.0,14.88,23.38153946104431,85.12,76.61846053895569,8.501539461044317,9.987710832993793
+rec2_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,global_best,Global Best,United States of America,100.0,3.16,9.33227756874524,96.84,90.66772243125476,6.172277568745244,6.373686047857542
+rec2_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),global_best,Global Best,UAE,100.0,8.0,10.121483777195706,92.0,89.8785162228043,2.1214837771957065,2.3059606273866375
+rec2_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec3_only,16,1,Implementation,Talent,Tortoise Talent Score,global_best,Global Best,United States of America,100.0,31.28,31.28,68.72,68.72,0.0,0.0
+rec3_only,16,2,Implementation,Talent,Relative AI Skill Penetration,global_best,Global Best,United States of America,100.0,38.99,38.99,61.01,61.01,0.0,0.0
+rec3_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,global_best,Global Best,India,100.0,73.73,73.73,26.269999999999996,26.269999999999996,0.0,0.0
+rec3_only,16,4,Implementation,Talent,AI Talent Concentration,global_best,Global Best,Israel,100.0,35.58,35.58,64.42,64.42,0.0,0.0
+rec3_only,16,5,Implementation,Talent,AI Job Postings (% of Total),global_best,Global Best,Singapore,100.0,27.63,30.37776474932741,72.37,69.62223525067259,2.747764749327416,3.796828450086246
+rec3_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,global_best,Global Best,UAE,100.0,48.96,50.23019348664141,51.04,49.76980651335859,1.2701934866414106,2.488623602353861
+rec3_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,global_best,Global Best,China,100.0,77.05,77.05,22.950000000000003,22.950000000000003,0.0,0.0
+rec3_only,16,8,Implementation,Infrastructure,Compute Hardware Index,global_best,Global Best,United States of America,100.0,3.61,3.61,96.39,96.39,0.0,0.0
+rec3_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,global_best,Global Best,China,100.0,0.29,0.29,99.71,99.71,0.0,0.0
+rec3_only,16,10,Implementation,Infrastructure,Internet Speed,global_best,Global Best,UAE,100.0,7.61,7.61,92.39,92.39,0.0,0.0
+rec3_only,16,11,Implementation,Infrastructure,Energy Resilience Score,global_best,Global Best,UAE,100.0,86.16,86.16,13.840000000000003,13.840000000000003,0.0,0.0
+rec3_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,global_best,Global Best,Canada,93.94,93.94,93.94,0.0,0.0,0.0,0.0
+rec3_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,global_best,Global Best,China,100.0,15.56,15.56,84.44,84.44,0.0,0.0
+rec3_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,global_best,Global Best,United States of America,100.0,8.3,8.3,91.7,91.7,0.0,0.0
+rec3_only,16,15,Implementation,Operating Environment,Open Data Score,global_best,Global Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec3_only,16,16,Innovation,Research,Tortoise Research Score,global_best,Global Best,United States of America,100.0,30.67,30.67,69.33,69.33,0.0,0.0
+rec3_only,16,17,Innovation,Research,AI Publications (Total),global_best,Global Best,China,100.0,34.73,34.73,65.27000000000001,65.27000000000001,0.0,0.0
+rec3_only,16,18,Innovation,Research,AI Citations (% of World Total),global_best,Global Best,China,100.0,10.72,10.72,89.28,89.28,0.0,0.0
+rec3_only,16,19,Innovation,Research,Notable AI Models,global_best,Global Best,United States of America,100.0,2.5,2.5,97.5,97.5,0.0,0.0
+rec3_only,16,20,Innovation,Research,Academia-Industry Concentration,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec3_only,16,21,Innovation,Development,Tortoise Development Score,global_best,Global Best,United States of America,100.0,25.78,26.410573011362825,74.22,73.58942698863717,0.6305730113628272,0.8495998536281693
+rec3_only,16,22,Innovation,Development,AI Patent Grants (per 100k),global_best,Global Best,South Korea,100.0,0.83,1.4617137303452457,99.17,98.53828626965475,0.631713730345254,0.6370008372948008
+rec3_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,global_best,Global Best,United States of America,100.0,14.88,22.513182996418887,85.12,77.48681700358111,7.6331829964188955,8.967555211958288
+rec3_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,global_best,Global Best,United States of America,100.0,3.16,8.040995421439348,96.84,91.95900457856065,4.880995421439351,5.040267886657736
+rec3_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),global_best,Global Best,UAE,100.0,8.0,13.717077132916906,92.0,86.2829228670831,5.717077132916899,6.214214274909673
+rec3_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+all_recommendations,16,1,Implementation,Talent,Tortoise Talent Score,global_best,Global Best,United States of America,100.0,31.28,35.950130939989805,68.72,64.0498690600102,4.670130939989804,6.795883207202857
+all_recommendations,16,2,Implementation,Talent,Relative AI Skill Penetration,global_best,Global Best,United States of America,100.0,38.99,41.04438304978961,61.01,58.95561695021039,2.0543830497896067,3.3672890506303994
+all_recommendations,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,global_best,Global Best,India,100.0,73.73,77.48620861494722,26.269999999999996,22.513791385052784,3.7562086149472123,14.298472078215504
+all_recommendations,16,4,Implementation,Talent,AI Talent Concentration,global_best,Global Best,Israel,100.0,35.58,37.65310775829565,64.42,62.34689224170435,2.0731077582956488,3.218112012256517
+all_recommendations,16,5,Implementation,Talent,AI Job Postings (% of Total),global_best,Global Best,Singapore,100.0,27.63,37.23055241515107,72.37,62.76944758484893,9.600552415151071,13.265928444315422
+all_recommendations,16,6,Implementation,Talent,Net Migration Flow of AI Skills,global_best,Global Best,UAE,100.0,48.96,55.14929462531403,51.04,44.85070537468597,6.189294625314027,12.126360943013376
+all_recommendations,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,global_best,Global Best,China,100.0,77.05,77.05,22.950000000000003,22.950000000000003,0.0,0.0
+all_recommendations,16,8,Implementation,Infrastructure,Compute Hardware Index,global_best,Global Best,United States of America,100.0,3.61,3.61,96.39,96.39,0.0,0.0
+all_recommendations,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,global_best,Global Best,China,100.0,0.29,0.29,99.71,99.71,0.0,0.0
+all_recommendations,16,10,Implementation,Infrastructure,Internet Speed,global_best,Global Best,UAE,100.0,7.61,7.61,92.39,92.39,0.0,0.0
+all_recommendations,16,11,Implementation,Infrastructure,Energy Resilience Score,global_best,Global Best,UAE,100.0,86.16,86.16,13.840000000000003,13.840000000000003,0.0,0.0
+all_recommendations,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,global_best,Global Best,Canada,93.94,93.94,93.94,0.0,0.0,0.0,0.0
+all_recommendations,16,13,Implementation,Operating Environment,AI Social Media Sentiment,global_best,Global Best,China,100.0,15.56,15.56,84.44,84.44,0.0,0.0
+all_recommendations,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,global_best,Global Best,United States of America,100.0,8.3,8.3,91.7,91.7,0.0,0.0
+all_recommendations,16,15,Implementation,Operating Environment,Open Data Score,global_best,Global Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+all_recommendations,16,16,Innovation,Research,Tortoise Research Score,global_best,Global Best,United States of America,100.0,30.67,31.47382426795142,69.33,68.52617573204859,0.8038242679514127,1.1594176661638724
+all_recommendations,16,17,Innovation,Research,AI Publications (Total),global_best,Global Best,China,100.0,34.73,34.73,65.27000000000001,65.27000000000001,0.0,0.0
+all_recommendations,16,18,Innovation,Research,AI Citations (% of World Total),global_best,Global Best,China,100.0,10.72,10.72,89.28,89.28,0.0,0.0
+all_recommendations,16,19,Innovation,Research,Notable AI Models,global_best,Global Best,United States of America,100.0,2.5,2.5,97.5,97.5,0.0,0.0
+all_recommendations,16,20,Innovation,Research,Academia-Industry Concentration,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+all_recommendations,16,21,Innovation,Development,Tortoise Development Score,global_best,Global Best,United States of America,100.0,25.78,27.04080889842305,74.22,72.95919110157695,1.2608088984230506,1.698745484267112
+all_recommendations,16,22,Innovation,Development,AI Patent Grants (per 100k),global_best,Global Best,South Korea,100.0,0.83,1.4612899237135752,99.17,98.53871007628642,0.631289923713581,0.6365734836276907
+all_recommendations,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,global_best,Global Best,United States of America,100.0,14.88,31.87446951165304,85.12,68.12553048834695,16.99446951165305,19.965307227036007
+all_recommendations,16,24,Investment,Commercial Ecosystem,AI Investment Activity,global_best,Global Best,United States of America,100.0,3.16,14.229815486853765,96.84,85.77018451314623,11.06981548685377,11.431036231777952
+all_recommendations,16,25,Investment,Commercial Ecosystem,AI Adoption (%),global_best,Global Best,UAE,100.0,8.0,15.840070462470518,92.0,84.15992953752948,7.840070462470521,8.521815720076653
+all_recommendations,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,global_best,Global Best,Canada,100.0,100.0,100.0,0.0,0.0,0.0,0.0

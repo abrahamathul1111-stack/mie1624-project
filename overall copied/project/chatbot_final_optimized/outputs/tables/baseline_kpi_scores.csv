@@ -1,0 +1,339 @@
+country,kpi_order,pillar,subpillar,subpillar_weight,source,kpi,kpi_weight,final_weight_display,scale,kpi_score,weighted_kpi_score
+Canada,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,31.28,9.72808
+Canada,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,38.99,5.610661
+Canada,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,73.73,12.895376999999998
+Canada,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,35.58,3.639834
+Canada,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,27.63,3.95109
+Canada,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,48.96,6.115104
+Canada,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,77.05,29.957040000000003
+Canada,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,3.61,1.070004
+Canada,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,0.29,0.035872999999999995
+Canada,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,7.61,0.640001
+Canada,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,86.16,9.21912
+Canada,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,93.94,48.548192
+Canada,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,15.56,1.996348
+Canada,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,8.3,1.34294
+Canada,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,92.86,17.931266
+Canada,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,30.67,12.369211
+Canada,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,34.73,6.793187999999999
+Canada,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,10.72,2.096832
+Canada,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,2.5,0.33275
+Canada,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+Canada,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,25.78,15.468
+Canada,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,0.83,0.332
+Canada,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,14.88,8.020320000000002
+Canada,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,3.16,0.9394680000000001
+Canada,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,8.0,1.3104
+Canada,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,100.0,100.0
+China,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,16.51,5.13461
+China,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,0.0,0.0
+China,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,9.95,1.7402549999999997
+China,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,4.29,0.438867
+China,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,54.47,7.789210000000001
+China,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,20.06,2.5054939999999997
+China,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,100.0,38.88
+China,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,16.22,4.807607999999999
+China,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,100.0,12.37
+China,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,14.95,1.257295
+China,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,62.14,6.64898
+China,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,91.57,47.323376
+China,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,100.0,12.83
+China,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,34.33,5.554594
+China,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,0.0,0.0
+China,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,71.42,28.803686
+China,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,100.0,19.56
+China,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,100.0,19.56
+China,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,37.5,4.99125
+China,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,66.67,4.820241
+China,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,79.97,47.982
+China,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,35.1,14.040000000000001
+China,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,44.02,23.72678
+China,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,8.31,2.4705630000000003
+China,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,12.0,1.9656
+China,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,94.87,94.87
+France,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,28.32,8.80752
+France,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,35.78,5.148742
+France,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,0.0,0.0
+France,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,26.99,2.761077
+France,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,15.56,2.22508
+France,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,39.17,4.892333
+France,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,77.15,29.995920000000005
+France,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,7.73,2.291172
+France,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,3.01,0.3723369999999999
+France,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,13.64,1.1471240000000003
+France,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,36.42,3.8969400000000003
+France,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,80.02,41.354336
+France,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,35.56,4.562348
+France,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,4.37,0.707066
+France,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,100.0,19.31
+France,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,25.48,10.276083999999999
+France,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,37.37,7.309571999999999
+France,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,11.61,2.2709159999999997
+France,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,7.5,0.99825
+France,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+France,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,21.44,12.864
+France,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,2.34,0.9359999999999999
+France,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,7.65,4.12335
+France,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,3.41,1.0137930000000002
+France,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,10.0,1.638
+France,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,91.2,91.2
+Germany,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,27.63,8.592929999999999
+Germany,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,39.91,5.743048999999999
+Germany,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,12.12,2.1197879999999993
+Germany,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,45.4,4.64442
+Germany,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,17.51,2.5039300000000004
+Germany,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,67.9,8.48071
+Germany,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,77.22,30.023136
+Germany,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,12.67,3.755388
+Germany,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,9.22,1.140514
+Germany,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,1.31,0.11017100000000002
+Germany,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,0.0,0.0
+Germany,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,70.22,36.289696
+Germany,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,22.22,2.8508259999999996
+Germany,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,10.63,1.719934
+Germany,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,92.86,17.931266
+Germany,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,35.84,14.454272000000001
+Germany,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,58.7,11.481720000000001
+Germany,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,16.07,3.143292
+Germany,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+Germany,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+Germany,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,24.79,14.873999999999999
+Germany,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,6.88,2.7520000000000002
+Germany,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,8.29,4.46831
+Germany,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,3.49,1.0375770000000002
+Germany,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,16.0,2.6208
+Germany,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,84.65,84.65
+India,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,45.27,14.078970000000002
+India,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,94.5,13.59855
+India,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,100.0,17.49
+India,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,31.9,3.26337
+India,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,42.8,6.1204
+India,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,8.83,1.102867
+India,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,33.91,13.184208
+India,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,1.64,0.486096
+India,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,0.11,0.013607
+India,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,10.16,0.8544560000000001
+India,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,39.56,4.23292
+India,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,77.3,39.948640000000005
+India,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,64.44,8.267652
+India,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,3.41,0.5517380000000001
+India,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,14.29,2.7593989999999997
+India,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,18.92,7.630436
+India,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,35.23,6.890987999999999
+India,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,26.36,5.156016
+India,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+India,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,0.0,0.0
+India,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,30.86,18.516
+India,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,0.0,0.0
+India,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,7.39,3.98321
+India,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,3.44,1.022712
+India,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,0.0,0.0
+India,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,58.83,58.83
+Israel,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,35.76,11.12136
+Israel,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,19.27,2.772953
+Israel,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,30.86,5.397413999999999
+Israel,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,100.0,10.23
+Israel,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,70.04,10.015720000000002
+Israel,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,0.0,0.0
+Israel,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,67.58,26.275104000000002
+Israel,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,0.09,0.026676
+Israel,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,2.83,0.35007099999999997
+Israel,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,0.0,0.0
+Israel,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,32.38,3.4646600000000003
+Israel,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,82.44,42.604992
+Israel,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,28.89,3.706587
+Israel,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,2.49,0.402882
+Israel,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,53.57,10.344367
+Israel,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,32.63,13.159679
+Israel,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,0.0,0.0
+Israel,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,0.45,0.08802
+Israel,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,2.5,0.33275
+Israel,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+Israel,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,27.96,16.776
+Israel,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,0.53,0.21200000000000002
+Israel,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,27.33,14.73087
+Israel,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,1.75,0.520275
+Israel,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,12.0,1.9656
+Israel,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,43.91,43.91
+Japan,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,15.18,4.72098
+Japan,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,6.88,0.990032
+Japan,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,1.63,0.2850869999999999
+Japan,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,0.0,0.0
+Japan,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,0.0,0.0
+Japan,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,30.5,3.80945
+Japan,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,84.58,32.884704
+Japan,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,12.61,3.7376039999999997
+Japan,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,15.98,1.976726
+Japan,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,0.44,0.037004
+Japan,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,20.23,2.16461
+Japan,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,57.53,29.731504
+Japan,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,0.0,0.0
+Japan,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,3.32,0.537176
+Japan,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,53.57,10.344367
+Japan,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,22.51,9.078283
+Japan,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,34.49,6.746244
+Japan,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,4.46,0.8723759999999999
+Japan,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+Japan,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,50.0,3.615
+Japan,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,34.47,20.682
+Japan,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,26.37,10.548000000000002
+Japan,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,7.31,3.94009
+Japan,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,1.83,0.5440590000000001
+Japan,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,34.0,5.5692
+Japan,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,71.96,71.96
+Singapore,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,39.38,12.24718
+Singapore,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,18.81,2.706759
+Singapore,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,69.54,12.162545999999999
+Singapore,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,79.14,8.096022
+Singapore,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,100.0,14.3
+Singapore,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,53.93,6.735857
+Singapore,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,84.3,32.77584
+Singapore,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,0.94,0.278616
+Singapore,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,35.94,4.445778
+Singapore,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,21.75,1.8291750000000002
+Singapore,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,26.24,2.80768
+Singapore,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,43.15,22.29992
+Singapore,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,48.89,6.272587
+Singapore,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,5.36,0.867248
+Singapore,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,85.71,16.550600999999997
+Singapore,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,37.67,15.192311
+Singapore,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,6.88,1.345728
+Singapore,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,1.34,0.262104
+Singapore,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+Singapore,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,50.0,3.615
+Singapore,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,22.55,13.53
+Singapore,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,5.5,2.2
+Singapore,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,15.07,8.12273
+Singapore,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,1.66,0.493518
+Singapore,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,24.0,3.9312
+Singapore,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,79.82,79.82
+South Korea,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,14.54,4.52194
+South Korea,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,8.26,1.188614
+South Korea,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,26.99,4.720550999999999
+South Korea,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,44.17,4.518591000000001
+South Korea,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,23.35,3.3390500000000007
+South Korea,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,27.93,3.488457
+South Korea,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,85.23,33.137424
+South Korea,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,3.43,1.0166520000000001
+South Korea,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,59.2,7.32304
+South Korea,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,30.98,2.6054180000000002
+South Korea,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,44.78,4.79146
+South Korea,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,68.86,35.586848
+South Korea,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,13.33,1.710239
+South Korea,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,1.85,0.29933000000000004
+South Korea,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,64.29,12.414399000000001
+South Korea,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,26.66,10.751978
+South Korea,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,29.3,5.73108
+South Korea,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,5.36,1.048416
+South Korea,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,2.5,0.33275
+South Korea,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+South Korea,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,77.25,46.35
+South Korea,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,100.0,40.0
+South Korea,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,5.41,2.9159900000000003
+South Korea,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,2.49,0.7402770000000001
+South Korea,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,34.0,5.5692
+South Korea,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,87.5,87.5
+Spain,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,17.61,5.47671
+Spain,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,29.82,4.291098
+Spain,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,45.12,7.891487999999998
+Spain,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,15.34,1.569282
+Spain,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,21.01,3.0044300000000006
+Spain,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,48.8,6.09512
+Spain,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,73.32,28.506816
+Spain,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,2.52,0.746928
+Spain,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,0.25,0.030924999999999998
+Spain,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,4.26,0.35826600000000003
+Spain,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,8.09,0.86563
+Spain,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,75.36,38.946048000000005
+Spain,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,24.44,3.135652
+Spain,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,0.0,0.0
+Spain,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,82.14,15.861234
+Spain,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,18.6,7.50138
+Spain,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,22.26,4.354056
+Spain,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,2.68,0.524208
+Spain,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+Spain,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,33.33,2.4097589999999998
+Spain,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,10.87,6.521999999999999
+Spain,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,0.4,0.16000000000000003
+Spain,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,3.08,1.66012
+Spain,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,0.47,0.139731
+Spain,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,20.0,3.276
+Spain,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,91.28,91.28
+UAE,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,2.65,0.8241499999999999
+UAE,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,12.84,1.8476759999999999
+UAE,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,69.21,12.104828999999997
+UAE,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,11.66,1.192818
+UAE,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,39.69,5.67567
+UAE,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,100.0,12.49
+UAE,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,79.16,30.777408
+UAE,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,0.88,0.260832
+UAE,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,0.0,0.0
+UAE,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,100.0,8.41
+UAE,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,100.0,10.7
+UAE,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,72.12,37.271616
+UAE,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,56.67,7.270761
+UAE,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,0.19,0.030742000000000002
+UAE,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,3.57,0.689367
+UAE,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,5.13,2.068929
+UAE,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,1.08,0.21124800000000002
+UAE,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,0.0,0.0
+UAE,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+UAE,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,66.67,4.820241
+UAE,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,15.53,9.318
+UAE,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,0.05,0.020000000000000004
+UAE,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,3.22,1.7355800000000001
+UAE,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,0.63,0.187299
+UAE,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,100.0,16.38
+UAE,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,81.38,81.38
+United Kingdom,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,39.65,12.33115
+United Kingdom,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,43.58,6.2711619999999995
+United Kingdom,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,29.05,5.080844999999999
+United Kingdom,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,31.9,3.26337
+United Kingdom,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,21.79,3.1159700000000004
+United Kingdom,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,42.54,5.3132459999999995
+United Kingdom,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,71.43,27.771984000000007
+United Kingdom,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,5.97,1.7695079999999999
+United Kingdom,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,0.49,0.06061299999999999
+United Kingdom,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,1.13,0.095033
+United Kingdom,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,18.54,1.9837799999999999
+United Kingdom,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,74.65,38.57912
+United Kingdom,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,20.0,2.566
+United Kingdom,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,14.71,2.380078
+United Kingdom,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,89.29,17.241899
+United Kingdom,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,36.5,14.72045
+United Kingdom,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,76.21,14.906676
+United Kingdom,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,20.98,4.103688
+United Kingdom,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,0.0,0.0
+United Kingdom,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,100.0,7.23
+United Kingdom,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,25.03,15.018
+United Kingdom,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,2.82,1.128
+United Kingdom,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,18.91,10.192490000000001
+United Kingdom,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,6.96,2.069208
+United Kingdom,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,10.0,1.638
+United Kingdom,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,82.82,82.82
+United States of America,1,Implementation,Talent,0.24559999999999998,Tortoise,Tortoise Talent Score,0.311,0.0763816,0 - 100,100.0,31.1
+United States of America,2,Implementation,Talent,0.24559999999999998,Stanford,Relative AI Skill Penetration,0.1439,0.03534184,0 - 100,100.0,14.39
+United States of America,3,Implementation,Talent,0.24559999999999998,Stanford,AI Hiring Rate YoY Ratio,0.17489999999999997,0.04295543999999999,0 - 100,68.67,12.010383
+United States of America,4,Implementation,Talent,0.24559999999999998,Stanford,AI Talent Concentration,0.1023,0.02512488,0 - 100,26.38,2.698674
+United States of America,5,Implementation,Talent,0.24559999999999998,Stanford,AI Job Postings (% of Total),0.14300000000000002,0.0351208,0 - 100,42.41,6.06463
+United States of America,6,Implementation,Talent,0.24559999999999998,Stanford,Net Migration Flow of AI Skills,0.1249,0.030675439999999998,0 - 100,50.88,6.354912000000001
+United States of America,7,Implementation,Infrastructure,0.087,Tortoise,Tortoise Infrastructure Score,0.38880000000000003,0.0338256,0 - 100,94.02,36.554976
+United States of America,8,Implementation,Infrastructure,0.087,Consolidated,Compute Hardware Index,0.2964,0.0257868,0 - 100,100.0,29.64
+United States of America,9,Implementation,Infrastructure,0.087,Stanford,Parts Semiconductor Devices Exports,0.12369999999999999,0.010761899999999998,0 - 100,24.94,3.0850779999999998
+United States of America,10,Implementation,Infrastructure,0.087,Stanford,Internet Speed,0.08410000000000001,0.0073167,0 - 100,23.62,1.9864420000000003
+United States of America,11,Implementation,Infrastructure,0.087,Proprietary,Energy Resilience Score,0.107,0.009309,0 - 100,74.93,8.01751
+United States of America,12,Implementation,Operating Environment,0.0424,Tortoise,Tortoise Operating Environment Score,0.5168,0.021912320000000002,0 - 100,64.56,33.364608000000004
+United States of America,13,Implementation,Operating Environment,0.0424,Stanford,AI Social Media Sentiment,0.1283,0.00543992,0 - 100,31.11,3.9914129999999997
+United States of America,14,Implementation,Operating Environment,0.0424,Stanford,Conference Submissions on RAI Topics,0.1618,0.00686032,0 - 100,100.0,16.18
+United States of America,15,Implementation,Operating Environment,0.0424,Proprietary,Open Data Score,0.1931,0.008187439999999999,0 - 100,78.57,15.171866999999999
+United States of America,16,Innovation,Research,0.21359999999999998,Tortoise,Tortoise Research Score,0.4033,0.08614488,0 - 100,100.0,40.33
+United States of America,17,Innovation,Research,0.21359999999999998,Stanford,AI Publications (Total),0.1956,0.04178016,0 - 100,35.14,6.873384
+United States of America,18,Innovation,Research,0.21359999999999998,Stanford,AI Citations (% of World Total),0.1956,0.04178016,0 - 100,57.3,11.20788
+United States of America,19,Innovation,Research,0.21359999999999998,Stanford,Notable AI Models,0.1331,0.028430159999999996,0 - 100,100.0,13.309999999999999
+United States of America,20,Innovation,Research,0.21359999999999998,Stanford,Academia-Industry Concentration,0.0723,0.01544328,0 - 100,75.77,5.478171
+United States of America,21,Innovation,Development,0.1655,Tortoise,Tortoise Development Score,0.6,0.0993,0 - 100,100.0,60.0
+United States of America,22,Innovation,Development,0.1655,Stanford,AI Patent Grants (per 100k),0.4,0.06620000000000001,0 - 100,30.01,12.004000000000001
+United States of America,23,Investment,Commercial Ecosystem,0.193,Tortoise,Tortoise Commercial Score,0.539,0.10402700000000001,0 - 100,100.0,53.900000000000006
+United States of America,24,Investment,Commercial Ecosystem,0.193,Consolidated,AI Investment Activity,0.2973,0.057378900000000004,0 - 100,100.0,29.73
+United States of America,25,Investment,Commercial Ecosystem,0.193,Proprietary,AI Adoption (%),0.1638,0.0316134,0 - 100,12.0,1.9656
+United States of America,26,Investment,Government Strategy,0.0529,Tortoise,Tortoise Government Strategy Score,1.0,0.0529,0 - 100,77.39,77.39

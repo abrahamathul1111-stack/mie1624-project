@@ -1,0 +1,153 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"label": "test-echo",
+			"type": "shell",
+			"command": "echo",
+			"args": [
+				"hello-dashboard"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "export-dashboard-copies-html",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"app/export_dashboard_copies_html.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "export-dashboard-copies-html-v2",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"app/export_dashboard_copies_html_v2.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "compile-export-v2",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"-m",
+				"py_compile",
+				"app/export_dashboard_copies_html_v2.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "compile-export-v2-only",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"-m",
+				"py_compile",
+				"app/export_dashboard_copies_html_v2.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"app/export_dashboard_copies_html_v2.py"
+			],
+			"isBackground": false
+		},
+		{
+			"label": "Inspect timeline HTML",
+			"type": "shell",
+			"command": "python -c \"content=open('outputs/dashboard/timeline_dashboard_interactive_v2.html',encoding='utf-8').read(); idx=content.find('const payload'); print('payload line:', repr(content[idx:idx+80])); sdata=content.find('timelineRows'); print('has_timelineRows:', sdata>0); sz=len(content); print('file_size_bytes:', sz); js=content.find('<script>'); print('script_sample:', repr(content[js:js+250]))\""
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python app/export_dashboard_copies_html_v2.py"
+		},
+		{
+			"label": "Run Temp Probe",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"temp_audit_probe.py"
+			]
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"app/export_dashboard_copies_html_v2.py"
+			]
+		},
+		{
+			"label": "Run Dashboard Accuracy Audit",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"app/audit_dashboard_accuracy.py"
+			]
+		},
+		{
+			"label": "Rebuild Overview V2 Direct",
+			"type": "shell",
+			"command": "C:/Users/dayab/AppData/Local/Python/pythoncore-3.14-64/python.exe",
+			"args": [
+				"app/export_dashboard_copies_html_v2.py"
+			]
+		},
+		{
+			"label": "Export Dashboard Copies HTML v2",
+			"type": "shell",
+			"command": "python",
+			"args": [
+				"app/export_dashboard_copies_html_v2.py"
+			]
+		}
+	]
+}

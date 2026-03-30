@@ -1,0 +1,105 @@
+scenario,quarter_index,kpi_order,pillar,subpillar,kpi,benchmark_type,benchmark_label,benchmark_country,benchmark_score,baseline_canada_score,scenario_canada_score,baseline_gap,post_policy_gap,absolute_gap_reduction,percent_gap_reduction
+rec1_only,16,1,Implementation,Talent,Tortoise Talent Score,peer_best,Peer-Cluster Best,United Kingdom,39.65,31.28,35.94126735773494,8.369999999999997,3.708732642265062,4.6612673577349355,55.690171538051814
+rec1_only,16,2,Implementation,Talent,Relative AI Skill Penetration,peer_best,Peer-Cluster Best,United Kingdom,43.58,38.99,41.04515747302733,4.589999999999996,2.5348425269726675,2.0551574730273288,44.77467261497452
+rec1_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,peer_best,Peer-Cluster Best,Spain,45.12,73.73,77.45715945543054,0.0,0.0,0.0,0.0
+rec1_only,16,4,Implementation,Talent,AI Talent Concentration,peer_best,Peer-Cluster Best,Germany,45.4,35.58,37.65790489303553,9.82,7.74209510696447,2.07790489303553,21.159927627653055
+rec1_only,16,5,Implementation,Talent,AI Job Postings (% of Total),peer_best,Peer-Cluster Best,United Kingdom,21.79,27.63,30.39280588942906,0.0,0.0,0.0,0.0
+rec1_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,peer_best,Peer-Cluster Best,Germany,67.9,48.96,52.52702481624659,18.940000000000005,15.372975183753418,3.5670248162465867,18.833288364554306
+rec1_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,peer_best,Peer-Cluster Best,Germany,77.22,77.05,77.05,0.1700000000000017,0.1700000000000017,0.0,0.0
+rec1_only,16,8,Implementation,Infrastructure,Compute Hardware Index,peer_best,Peer-Cluster Best,Germany,12.67,3.61,3.61,9.06,9.06,0.0,0.0
+rec1_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,peer_best,Peer-Cluster Best,Germany,9.22,0.29,0.29,8.930000000000001,8.930000000000001,0.0,0.0
+rec1_only,16,10,Implementation,Infrastructure,Internet Speed,peer_best,Peer-Cluster Best,France,13.64,7.61,7.61,6.03,6.03,0.0,0.0
+rec1_only,16,11,Implementation,Infrastructure,Energy Resilience Score,peer_best,Peer-Cluster Best,France,36.42,86.16,86.16,0.0,0.0,0.0,0.0
+rec1_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,peer_best,Peer-Cluster Best,France,80.02,93.94,93.94,0.0,0.0,0.0,0.0
+rec1_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,peer_best,Peer-Cluster Best,France,35.56,15.56,15.56,20.0,20.0,0.0,0.0
+rec1_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,peer_best,Peer-Cluster Best,United Kingdom,14.71,8.3,8.3,6.41,6.41,0.0,0.0
+rec1_only,16,15,Implementation,Operating Environment,Open Data Score,peer_best,Peer-Cluster Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec1_only,16,16,Innovation,Research,Tortoise Research Score,peer_best,Peer-Cluster Best,United Kingdom,36.5,30.67,31.473141930939462,5.829999999999998,5.026858069060538,0.8031419309394607,13.77601939861854
+rec1_only,16,17,Innovation,Research,AI Publications (Total),peer_best,Peer-Cluster Best,United Kingdom,76.21,34.73,34.73,41.48,41.48,0.0,0.0
+rec1_only,16,18,Innovation,Research,AI Citations (% of World Total),peer_best,Peer-Cluster Best,United Kingdom,20.98,10.72,10.72,10.26,10.26,0.0,0.0
+rec1_only,16,19,Innovation,Research,Notable AI Models,peer_best,Peer-Cluster Best,France,7.5,2.5,2.5,5.0,5.0,0.0,0.0
+rec1_only,16,20,Innovation,Research,Academia-Industry Concentration,peer_best,Peer-Cluster Best,France,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec1_only,16,21,Innovation,Development,Tortoise Development Score,peer_best,Peer-Cluster Best,United Kingdom,25.03,25.78,25.78,0.0,0.0,0.0,0.0
+rec1_only,16,22,Innovation,Development,AI Patent Grants (per 100k),peer_best,Peer-Cluster Best,Germany,6.88,0.83,0.83,6.05,6.05,0.0,0.0
+rec1_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,peer_best,Peer-Cluster Best,United Kingdom,18.91,14.88,15.705664525817452,4.029999999999999,3.204335474182548,0.8256645258174515,20.48795349422957
+rec1_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,peer_best,Peer-Cluster Best,United Kingdom,6.96,3.16,3.16,3.8,3.8,0.0,0.0
+rec1_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),peer_best,Peer-Cluster Best,Spain,20.0,8.0,8.0,12.0,12.0,0.0,0.0
+rec1_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,peer_best,Peer-Cluster Best,Spain,91.28,100.0,100.0,0.0,0.0,0.0,0.0
+rec2_only,16,1,Implementation,Talent,Tortoise Talent Score,peer_best,Peer-Cluster Best,United Kingdom,39.65,31.28,31.28,8.369999999999997,8.369999999999997,0.0,0.0
+rec2_only,16,2,Implementation,Talent,Relative AI Skill Penetration,peer_best,Peer-Cluster Best,United Kingdom,43.58,38.99,38.99,4.589999999999996,4.589999999999996,0.0,0.0
+rec2_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,peer_best,Peer-Cluster Best,Spain,45.12,73.73,73.73,0.0,0.0,0.0,0.0
+rec2_only,16,4,Implementation,Talent,AI Talent Concentration,peer_best,Peer-Cluster Best,Germany,45.4,35.58,35.58,9.82,9.82,0.0,0.0
+rec2_only,16,5,Implementation,Talent,AI Job Postings (% of Total),peer_best,Peer-Cluster Best,United Kingdom,21.79,27.63,31.758431469947627,0.0,0.0,0.0,0.0
+rec2_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,peer_best,Peer-Cluster Best,Germany,67.9,48.96,50.30576270603824,18.940000000000005,17.59423729396177,1.3457627060382364,7.105399715091004
+rec2_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,peer_best,Peer-Cluster Best,Germany,77.22,77.05,77.05,0.1700000000000017,0.1700000000000017,0.0,0.0
+rec2_only,16,8,Implementation,Infrastructure,Compute Hardware Index,peer_best,Peer-Cluster Best,Germany,12.67,3.61,3.61,9.06,9.06,0.0,0.0
+rec2_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,peer_best,Peer-Cluster Best,Germany,9.22,0.29,0.29,8.930000000000001,8.930000000000001,0.0,0.0
+rec2_only,16,10,Implementation,Infrastructure,Internet Speed,peer_best,Peer-Cluster Best,France,13.64,7.61,7.61,6.03,6.03,0.0,0.0
+rec2_only,16,11,Implementation,Infrastructure,Energy Resilience Score,peer_best,Peer-Cluster Best,France,36.42,86.16,86.16,0.0,0.0,0.0,0.0
+rec2_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,peer_best,Peer-Cluster Best,France,80.02,93.94,93.94,0.0,0.0,0.0,0.0
+rec2_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,peer_best,Peer-Cluster Best,France,35.56,15.56,15.56,20.0,20.0,0.0,0.0
+rec2_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,peer_best,Peer-Cluster Best,United Kingdom,14.71,8.3,8.3,6.41,6.41,0.0,0.0
+rec2_only,16,15,Implementation,Operating Environment,Open Data Score,peer_best,Peer-Cluster Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec2_only,16,16,Innovation,Research,Tortoise Research Score,peer_best,Peer-Cluster Best,United Kingdom,36.5,30.67,30.67,5.829999999999998,5.829999999999998,0.0,0.0
+rec2_only,16,17,Innovation,Research,AI Publications (Total),peer_best,Peer-Cluster Best,United Kingdom,76.21,34.73,34.73,41.48,41.48,0.0,0.0
+rec2_only,16,18,Innovation,Research,AI Citations (% of World Total),peer_best,Peer-Cluster Best,United Kingdom,20.98,10.72,10.72,10.26,10.26,0.0,0.0
+rec2_only,16,19,Innovation,Research,Notable AI Models,peer_best,Peer-Cluster Best,France,7.5,2.5,2.5,5.0,5.0,0.0,0.0
+rec2_only,16,20,Innovation,Research,Academia-Industry Concentration,peer_best,Peer-Cluster Best,France,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec2_only,16,21,Innovation,Development,Tortoise Development Score,peer_best,Peer-Cluster Best,United Kingdom,25.03,25.78,26.412047592716945,0.0,0.0,0.0,0.0
+rec2_only,16,22,Innovation,Development,AI Patent Grants (per 100k),peer_best,Peer-Cluster Best,Germany,6.88,0.83,0.83,6.05,6.05,0.0,0.0
+rec2_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,peer_best,Peer-Cluster Best,United Kingdom,18.91,14.88,23.38153946104431,4.029999999999999,0.0,4.029999999999999,100.0
+rec2_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,peer_best,Peer-Cluster Best,United Kingdom,6.96,3.16,9.33227756874524,3.8,0.0,3.8,100.0
+rec2_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),peer_best,Peer-Cluster Best,Spain,20.0,8.0,10.121483777195706,12.0,9.878516222804294,2.1214837771957065,17.67903147663089
+rec2_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,peer_best,Peer-Cluster Best,Spain,91.28,100.0,100.0,0.0,0.0,0.0,0.0
+rec3_only,16,1,Implementation,Talent,Tortoise Talent Score,peer_best,Peer-Cluster Best,United Kingdom,39.65,31.28,31.28,8.369999999999997,8.369999999999997,0.0,0.0
+rec3_only,16,2,Implementation,Talent,Relative AI Skill Penetration,peer_best,Peer-Cluster Best,United Kingdom,43.58,38.99,38.99,4.589999999999996,4.589999999999996,0.0,0.0
+rec3_only,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,peer_best,Peer-Cluster Best,Spain,45.12,73.73,73.73,0.0,0.0,0.0,0.0
+rec3_only,16,4,Implementation,Talent,AI Talent Concentration,peer_best,Peer-Cluster Best,Germany,45.4,35.58,35.58,9.82,9.82,0.0,0.0
+rec3_only,16,5,Implementation,Talent,AI Job Postings (% of Total),peer_best,Peer-Cluster Best,United Kingdom,21.79,27.63,30.37776474932741,0.0,0.0,0.0,0.0
+rec3_only,16,6,Implementation,Talent,Net Migration Flow of AI Skills,peer_best,Peer-Cluster Best,Germany,67.9,48.96,50.23019348664141,18.940000000000005,17.669806513358594,1.2701934866414106,6.706407004442504
+rec3_only,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,peer_best,Peer-Cluster Best,Germany,77.22,77.05,77.05,0.1700000000000017,0.1700000000000017,0.0,0.0
+rec3_only,16,8,Implementation,Infrastructure,Compute Hardware Index,peer_best,Peer-Cluster Best,Germany,12.67,3.61,3.61,9.06,9.06,0.0,0.0
+rec3_only,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,peer_best,Peer-Cluster Best,Germany,9.22,0.29,0.29,8.930000000000001,8.930000000000001,0.0,0.0
+rec3_only,16,10,Implementation,Infrastructure,Internet Speed,peer_best,Peer-Cluster Best,France,13.64,7.61,7.61,6.03,6.03,0.0,0.0
+rec3_only,16,11,Implementation,Infrastructure,Energy Resilience Score,peer_best,Peer-Cluster Best,France,36.42,86.16,86.16,0.0,0.0,0.0,0.0
+rec3_only,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,peer_best,Peer-Cluster Best,France,80.02,93.94,93.94,0.0,0.0,0.0,0.0
+rec3_only,16,13,Implementation,Operating Environment,AI Social Media Sentiment,peer_best,Peer-Cluster Best,France,35.56,15.56,15.56,20.0,20.0,0.0,0.0
+rec3_only,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,peer_best,Peer-Cluster Best,United Kingdom,14.71,8.3,8.3,6.41,6.41,0.0,0.0
+rec3_only,16,15,Implementation,Operating Environment,Open Data Score,peer_best,Peer-Cluster Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+rec3_only,16,16,Innovation,Research,Tortoise Research Score,peer_best,Peer-Cluster Best,United Kingdom,36.5,30.67,30.67,5.829999999999998,5.829999999999998,0.0,0.0
+rec3_only,16,17,Innovation,Research,AI Publications (Total),peer_best,Peer-Cluster Best,United Kingdom,76.21,34.73,34.73,41.48,41.48,0.0,0.0
+rec3_only,16,18,Innovation,Research,AI Citations (% of World Total),peer_best,Peer-Cluster Best,United Kingdom,20.98,10.72,10.72,10.26,10.26,0.0,0.0
+rec3_only,16,19,Innovation,Research,Notable AI Models,peer_best,Peer-Cluster Best,France,7.5,2.5,2.5,5.0,5.0,0.0,0.0
+rec3_only,16,20,Innovation,Research,Academia-Industry Concentration,peer_best,Peer-Cluster Best,France,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+rec3_only,16,21,Innovation,Development,Tortoise Development Score,peer_best,Peer-Cluster Best,United Kingdom,25.03,25.78,26.410573011362825,0.0,0.0,0.0,0.0
+rec3_only,16,22,Innovation,Development,AI Patent Grants (per 100k),peer_best,Peer-Cluster Best,Germany,6.88,0.83,1.4617137303452457,6.05,5.418286269654754,0.631713730345246,10.441549261904894
+rec3_only,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,peer_best,Peer-Cluster Best,United Kingdom,18.91,14.88,22.513182996418887,4.029999999999999,0.0,4.029999999999999,100.0
+rec3_only,16,24,Investment,Commercial Ecosystem,AI Investment Activity,peer_best,Peer-Cluster Best,United Kingdom,6.96,3.16,8.040995421439348,3.8,0.0,3.8,100.0
+rec3_only,16,25,Investment,Commercial Ecosystem,AI Adoption (%),peer_best,Peer-Cluster Best,Spain,20.0,8.0,13.717077132916906,12.0,6.282922867083094,5.717077132916906,47.64230944097421
+rec3_only,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,peer_best,Peer-Cluster Best,Spain,91.28,100.0,100.0,0.0,0.0,0.0,0.0
+all_recommendations,16,1,Implementation,Talent,Tortoise Talent Score,peer_best,Peer-Cluster Best,United Kingdom,39.65,31.28,35.950130939989805,8.369999999999997,3.6998690600101938,4.670130939989804,55.79606857813387
+all_recommendations,16,2,Implementation,Talent,Relative AI Skill Penetration,peer_best,Peer-Cluster Best,United Kingdom,43.58,38.99,41.04438304978961,4.589999999999996,2.5356169502103896,2.0543830497896067,44.757800649011074
+all_recommendations,16,3,Implementation,Talent,AI Hiring Rate YoY Ratio,peer_best,Peer-Cluster Best,Spain,45.12,73.73,77.48620861494722,0.0,0.0,0.0,0.0
+all_recommendations,16,4,Implementation,Talent,AI Talent Concentration,peer_best,Peer-Cluster Best,Germany,45.4,35.58,37.65310775829565,9.82,7.7468922417043515,2.0731077582956488,21.11107696838746
+all_recommendations,16,5,Implementation,Talent,AI Job Postings (% of Total),peer_best,Peer-Cluster Best,United Kingdom,21.79,27.63,37.23055241515107,0.0,0.0,0.0,0.0
+all_recommendations,16,6,Implementation,Talent,Net Migration Flow of AI Skills,peer_best,Peer-Cluster Best,Germany,67.9,48.96,55.14929462531403,18.940000000000005,12.750705374685978,6.189294625314027,32.67842991190087
+all_recommendations,16,7,Implementation,Infrastructure,Tortoise Infrastructure Score,peer_best,Peer-Cluster Best,Germany,77.22,77.05,77.05,0.1700000000000017,0.1700000000000017,0.0,0.0
+all_recommendations,16,8,Implementation,Infrastructure,Compute Hardware Index,peer_best,Peer-Cluster Best,Germany,12.67,3.61,3.61,9.06,9.06,0.0,0.0
+all_recommendations,16,9,Implementation,Infrastructure,Parts Semiconductor Devices Exports,peer_best,Peer-Cluster Best,Germany,9.22,0.29,0.29,8.930000000000001,8.930000000000001,0.0,0.0
+all_recommendations,16,10,Implementation,Infrastructure,Internet Speed,peer_best,Peer-Cluster Best,France,13.64,7.61,7.61,6.03,6.03,0.0,0.0
+all_recommendations,16,11,Implementation,Infrastructure,Energy Resilience Score,peer_best,Peer-Cluster Best,France,36.42,86.16,86.16,0.0,0.0,0.0,0.0
+all_recommendations,16,12,Implementation,Operating Environment,Tortoise Operating Environment Score,peer_best,Peer-Cluster Best,France,80.02,93.94,93.94,0.0,0.0,0.0,0.0
+all_recommendations,16,13,Implementation,Operating Environment,AI Social Media Sentiment,peer_best,Peer-Cluster Best,France,35.56,15.56,15.56,20.0,20.0,0.0,0.0
+all_recommendations,16,14,Implementation,Operating Environment,Conference Submissions on RAI Topics,peer_best,Peer-Cluster Best,United Kingdom,14.71,8.3,8.3,6.41,6.41,0.0,0.0
+all_recommendations,16,15,Implementation,Operating Environment,Open Data Score,peer_best,Peer-Cluster Best,France,100.0,92.86,92.86,7.140000000000001,7.140000000000001,0.0,0.0
+all_recommendations,16,16,Innovation,Research,Tortoise Research Score,peer_best,Peer-Cluster Best,United Kingdom,36.5,30.67,31.47382426795142,5.829999999999998,5.0261757320485785,0.8038242679514198,13.787723292477189
+all_recommendations,16,17,Innovation,Research,AI Publications (Total),peer_best,Peer-Cluster Best,United Kingdom,76.21,34.73,34.73,41.48,41.48,0.0,0.0
+all_recommendations,16,18,Innovation,Research,AI Citations (% of World Total),peer_best,Peer-Cluster Best,United Kingdom,20.98,10.72,10.72,10.26,10.26,0.0,0.0
+all_recommendations,16,19,Innovation,Research,Notable AI Models,peer_best,Peer-Cluster Best,France,7.5,2.5,2.5,5.0,5.0,0.0,0.0
+all_recommendations,16,20,Innovation,Research,Academia-Industry Concentration,peer_best,Peer-Cluster Best,France,100.0,100.0,100.0,0.0,0.0,0.0,0.0
+all_recommendations,16,21,Innovation,Development,Tortoise Development Score,peer_best,Peer-Cluster Best,United Kingdom,25.03,25.78,27.04080889842305,0.0,0.0,0.0,0.0
+all_recommendations,16,22,Innovation,Development,AI Patent Grants (per 100k),peer_best,Peer-Cluster Best,Germany,6.88,0.83,1.4612899237135752,6.05,5.418710076286425,0.6312899237135747,10.434544193612806
+all_recommendations,16,23,Investment,Commercial Ecosystem,Tortoise Commercial Score,peer_best,Peer-Cluster Best,United Kingdom,18.91,14.88,31.87446951165304,4.029999999999999,0.0,4.029999999999999,100.0
+all_recommendations,16,24,Investment,Commercial Ecosystem,AI Investment Activity,peer_best,Peer-Cluster Best,United Kingdom,6.96,3.16,14.229815486853765,3.8,0.0,3.8,100.0
+all_recommendations,16,25,Investment,Commercial Ecosystem,AI Adoption (%),peer_best,Peer-Cluster Best,Spain,20.0,8.0,15.840070462470518,12.0,4.159929537529482,7.840070462470518,65.33392052058765
+all_recommendations,16,26,Investment,Government Strategy,Tortoise Government Strategy Score,peer_best,Peer-Cluster Best,Spain,91.28,100.0,100.0,0.0,0.0,0.0,0.0

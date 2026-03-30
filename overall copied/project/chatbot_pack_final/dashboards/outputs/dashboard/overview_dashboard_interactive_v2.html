@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Overview Copy v2</title>
+  <script src="https://cdn.plot.ly/plotly-2.32.0.min.js"></script>
+  <style>
+    :root {
+      --ink: #0f172a;
+      --bg: #f8fafc;
+      --panel: #ffffff;
+      --muted: #64748b;
+    }
+    * { box-sizing: border-box; }
+    body { margin:0; padding:24px; font-family: Segoe UI, Inter, system-ui, sans-serif; color:var(--ink); background:var(--bg); }
+    h1 { margin:0 0 6px; }
+    .row { display:grid; grid-template-columns:48px 1fr; gap:10px; margin-bottom:14px; }
+    .vert-label { writing-mode:vertical-rl; transform:rotate(180deg); text-align:center; font-weight:700; letter-spacing:1px; color:#f8fafc; font-size:12px; display:flex; align-items:center; justify-content:center; background:#1f2937; border-radius:12px; padding:8px 6px; }
+    .grid-cols { display:grid; grid-template-columns: repeat(auto-fit, minmax(280px,1fr)); gap:12px; }
+    .card { background:var(--panel); border-radius:14px; padding:14px; border:1px solid #e2e8f0; }
+    .pill { display:inline-flex; padding:6px 10px; border-radius:999px; font-size:12px; background:#fff; border:1px solid #e2e8f0; }
+    .bar { position:relative; height:8px; background:rgba(15,23,42,0.08); border-radius:999px; overflow:hidden; margin:6px 0 2px; }
+    .bar span { position:absolute; top:0; left:0; bottom:0; width:var(--w,0%); background:linear-gradient(90deg,#fbcfe8,#bfdbfe); }
+    .actions { display:grid; gap:6px; margin-top:8px; }
+    .action-tag { padding:6px 9px; border-radius:10px; background:#f1f5f9; font-size:13px; }
+    .meta { display:flex; gap:8px; flex-wrap:wrap; margin-top:8px; }
+    .badge { padding:4px 8px; border-radius:999px; font-size:12px; border:1px solid #e2e8f0; background:#fff; }
+    .chart-grid { display:grid; grid-template-columns: repeat(auto-fit,minmax(320px,1fr)); gap:12px; }
+    .top-chips { display:flex; gap:10px; flex-wrap:wrap; margin:8px 0 14px; }
+    .chip { background:#fff; border:1px solid #e2e8f0; border-radius:999px; padding:6px 10px; font-size:12px; color:#334155; }
+  </style>
+</head>
+<body>
+  <h1>Overview</h1>
+  <div class="top-chips" id="summaryChips"></div>
+  <div class="row"><div class="vert-label">CHALLENGES</div><div class="grid-cols" id="problemCols"></div></div>
+  <div class="row"><div class="vert-label">RECOMMENDATIONS &amp; ACTIONS</div><div class="grid-cols" id="recCols"></div></div>
+  <div class="row" style="margin-bottom:0;"><div class="vert-label">IMPACTS</div><div class="chart-grid"><div class="card"><h3>Success metrics</h3><div id="clustered" style="height:360px;"></div></div><div class="card"><h3>AI competitiveness KPIs</h3><div id="stacked" style="height:360px;"></div></div></div></div>
+
+  <script>
+    const payload = {"summary": {"baseline_rank": 5, "baseline_composite": 32.8644534196, "final_rank": 4, "final_composite": 36.92993718919254, "final_quarter": "2029Q4"}, "problems": [{"title": "Canada's AI Talent Paradox", "tag": "20% attrition baseline", "severity": 55, "text": "High acquisition, weak retention; Canada trains and attracts talent but leaks senior value creation south.", "color": "#EEF4FF", "evidence": "Talent score anchor = 41.94"}, {"title": "The Commercialization Valley of Death", "tag": "Commercial Ecosystem score = 10.27", "severity": 55, "text": "Canada produces research and technical feasibility, but scale-up and domestic commercial capture remain weak.", "color": "#FFF4E8", "evidence": "Commercial Ecosystem score = 10.27"}, {"title": "Weak Market Validation / First-Customer Gap", "tag": "R3 conversion baseline proxy = 25%", "severity": 55, "text": "Risk-averse adoption and weak first-buyer pathways stop domestic firms from proving market value.", "color": "#EAF8F5", "evidence": "R3 conversion baseline proxy = 25%"}], "recs": [{"id": "rec1", "label": "R1", "title": "Build Career Moats for Talent", "color": "#EEF4FF", "core": "#4F7CCB", "actions": ["Elite equity tax exemption", "1:1 salary-matching tax credit", "AI Elite fast-track visa and PR mechanism"], "time": "1-3 years", "money": "Policy package", "closes": 6}, {"id": "rec2", "label": "R2", "title": "Build the Conditions to Scale AI in Canada", "color": "#FFF4E8", "core": "#D4832E", "actions": ["Compute utilization and access support", "Procurement and pilot-to-contract conversion", "Growth-stage co-investment and later-stage capital"], "time": "1-3 years", "money": "Policy package", "closes": 4}, {"id": "rec3", "label": "R3", "title": "Stimulate B2B Demand via Adoption Credits", "color": "#EAF8F5", "core": "#2E9C8F", "actions": ["Refundable first-customer AI adoption credit", "Canadian-owned and Canadian-IP eligibility rules", "Conversion mandate with clawback logic"], "time": "1-3 years", "money": "Policy package", "closes": 5}], "kpisDirect": [{"id": "r1_retention_program", "name": "Core AI team attrition among supported firms", "actual": 75.0, "target": 100.0}, {"id": "r2_procurement_matching", "name": "% of subsidized pilots converting to paid commercial contracts", "actual": 50.0, "target": 100.0}, {"id": "r3_adoption_credit", "name": "% of credit-subsidized deployments converting to multi-year commercial contracts", "actual": 50.0, "target": 100.0}, {"id": "r3_registry_build", "name": "Pre-qualified Canadian AI scale-ups in launch registry", "actual": 22.0, "target": 100.0}, {"id": "r3_anchor_adopter", "name": "Pre-launch procurement deals signed under AnchorAdopter program", "actual": 33.85, "target": 100.0}], "kpisWorkbook": [{"id": "tortoise_commercial_score", "name": "Tortoise Commercial Score", "actual": 14.88, "target": 100.0}, {"id": "ai_investment_activity", "name": "AI Investment Activity", "actual": 3.16, "target": 100.0}, {"id": "ai_job_postings_of_total", "name": "AI Job Postings (% of Total)", "actual": 27.63, "target": 100.0}, {"id": "ai_adoption", "name": "AI Adoption (%)", "actual": 8.0, "target": 100.0}, {"id": "net_migration_flow_of_ai_skills", "name": "Net Migration Flow of AI Skills", "actual": 48.96, "target": 100.0}, {"id": "tortoise_talent_score", "name": "Tortoise Talent Score", "actual": 31.28, "target": 100.0}, {"id": "ai_hiring_rate_yoy_ratio", "name": "AI Hiring Rate YoY Ratio", "actual": 73.73, "target": 100.0}, {"id": "ai_talent_concentration", "name": "AI Talent Concentration", "actual": 35.58, "target": 100.0}, {"id": "relative_ai_skill_penetration", "name": "Relative AI Skill Penetration", "actual": 38.99, "target": 100.0}, {"id": "tortoise_development_score", "name": "Tortoise Development Score", "actual": 25.78, "target": 100.0}, {"id": "tortoise_research_score", "name": "Tortoise Research Score", "actual": 30.67, "target": 100.0}, {"id": "ai_patent_grants_per_100k", "name": "AI Patent Grants (per 100k)", "actual": 0.83, "target": 100.0}], "impacts": {"rec1": {"tortoise_talent_score": 4.661267357734943, "relative_ai_skill_penetration": 2.0551574730273288, "ai_hiring_rate_yoy_ratio": 3.727159455430538, "ai_talent_concentration": 2.07790489303553, "ai_job_postings_of_total": 2.7628058894290604, "net_migration_flow_of_ai_skills": 3.5670248162465867, "compute_hardware_index": 0.0, "tortoise_research_score": 0.8031419309394607, "tortoise_development_score": 0.0, "ai_patent_grants_per_100k": 0.0, "tortoise_commercial_score": 0.8256645258174586, "ai_investment_activity": 0.0, "ai_adoption": 0.0}, "rec2": {"tortoise_talent_score": 0.0, "relative_ai_skill_penetration": 0.0, "ai_hiring_rate_yoy_ratio": 0.0, "ai_talent_concentration": 0.0, "ai_job_postings_of_total": 4.128431469947628, "net_migration_flow_of_ai_skills": 1.3457627060382364, "compute_hardware_index": 0.0, "tortoise_research_score": 0.0, "tortoise_development_score": 0.632047592716944, "ai_patent_grants_per_100k": 0.0, "tortoise_commercial_score": 8.501539461044317, "ai_investment_activity": 6.172277568745244, "ai_adoption": 2.1214837771957065}, "rec3": {"tortoise_talent_score": 0.0, "relative_ai_skill_penetration": 0.0, "ai_hiring_rate_yoy_ratio": 0.0, "ai_talent_concentration": 0.0, "ai_job_postings_of_total": 2.747764749327416, "net_migration_flow_of_ai_skills": 1.2701934866414106, "compute_hardware_index": 0.0, "tortoise_research_score": 0.0, "tortoise_development_score": 0.6305730113628272, "ai_patent_grants_per_100k": 0.631713730345254, "tortoise_commercial_score": 7.633182996418895, "ai_investment_activity": 4.880995421439351, "ai_adoption": 5.717077132916899}}, "colors": {"rec1": "#EEF4FF", "rec2": "#FFF4E8", "rec3": "#EAF8F5", "rec1_core": "#4F7CCB", "rec2_core": "#D4832E", "rec3_core": "#2E9C8F", "actual": "#cfe9d2", "gap": "#FBE3D6"}};
+    const colors = payload.colors;
+
+    const summary = payload.summary || {};
+    const summaryChips = document.getElementById('summaryChips');
+    summaryChips.innerHTML = ''
+      + '<span class="chip">Canada baseline rank: #' + (summary.baseline_rank ?? 'N/A') + '</span>'
+      + '<span class="chip">Canada baseline composite: ' + (typeof summary.baseline_composite === 'number' ? summary.baseline_composite.toFixed(2) : 'N/A') + '</span>'
+      + '<span class="chip">' + (summary.final_quarter || '2029Q4') + ' all-recs median: '
+      + (typeof summary.final_composite === 'number' ? summary.final_composite.toFixed(2) : 'N/A')
+      + ' (rank #' + (summary.final_rank ?? 'N/A') + ')</span>';
+
+    const problemEl = document.getElementById('problemCols');
+    payload.problems.forEach((p) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.style.background = 'linear-gradient(135deg, rgba(255,255,255,0.9), ' + p.color + ')';
+      card.innerHTML = '<div class="pill">' + p.tag + '</div>'
+        + '<h3>' + p.title + '</h3>'
+        + '<div style="color:#64748b;font-size:14px">' + p.text + '</div>'
+        + '<div class="bar" style="--w:' + p.severity + '%"><span></span></div>'
+        + '<div style="color:#64748b;font-size:12px">Urgency index: ' + p.severity + '% | ' + p.evidence + '</div>';
+      problemEl.appendChild(card);
+    });
+
+    const recEl = document.getElementById('recCols');
+    payload.recs.forEach((rec) => {
+      const card = document.createElement('div');
+      card.className = 'card';
+      card.style.background = 'linear-gradient(135deg, rgba(255,255,255,0.96), ' + rec.color + ')';
+      const actions = rec.actions.map((a) => '<span class="action-tag">' + a + '</span>').join('');
+      const titleColor = rec.core || '#334155';
+      card.innerHTML = '<div style="display:flex;align-items:center;gap:8px;margin-bottom:4px"><input class="checkbox" type="checkbox" id="' + rec.id + '" checked />'
+        + '<span style="display:inline-flex;align-items:center;gap:5px;padding:3px 10px;border-radius:999px;font-size:12px;font-weight:800;letter-spacing:.4px;background:' + rec.color + ';color:' + titleColor + ';border:1.5px solid ' + titleColor + '">' + rec.label + '</span></div>'
+        + '<div style="font-size:14px;font-weight:700;color:#0f172a;line-height:1.3;margin-bottom:8px">' + (rec.title || '') + '</div>'
+        + '<div class="actions">' + actions + '</div>'
+        + '<div class="meta"><span class="badge">' + rec.time + '</span><span class="badge">' + rec.money + '</span></div>'
+        + '<div style="color:#64748b;font-size:13px;margin-top:6px">Closes gaps on ' + rec.closes + ' KPIs</div>';
+      recEl.appendChild(card);
+    });
+
+    function selectedRecs() {
+      return payload.recs.filter((r) => document.getElementById(r.id)?.checked).map((r) => r.id);
+    }
+
+    function impactFor(recId, kpiId) {
+      return payload.impacts[recId] && payload.impacts[recId][kpiId] ? payload.impacts[recId][kpiId] : 0;
+    }
+
+    function applyImprovement(kpis, ids) {
+      return kpis.map((k) => {
+        const imp = ids.reduce((sum, recId) => sum + impactFor(recId, k.id), 0);
+        const maxGain = Math.max(0, k.target - k.actual);
+        const used = Math.min(imp, maxGain);
+        const improvedActual = k.actual + used;
+        return { ...k, improvement: used, improvedActual: improvedActual, remainingGap: Math.max(0, k.target - improvedActual) };
+      });
+    }
+
+    function wrapLabel(s, n) {
+      const words = s.split(' ');
+      const lines = [];
+      let cur = '';
+      words.forEach((w) => {
+        const candidate = cur ? cur + ' ' + w : w;
+        if (candidate.length > n && cur) { lines.push(cur); cur = w; }
+        else { cur = candidate; }
+      });
+      if (cur) lines.push(cur);
+      return lines.join('<br>');
+    }
+
+    function drawClustered(ids) {
+      function recIdFromMetricId(metricId) {
+        if ((metricId || '').startsWith('r1_')) return 'rec1';
+        if ((metricId || '').startsWith('r2_')) return 'rec2';
+        if ((metricId || '').startsWith('r3_')) return 'rec3';
+        return '';
+      }
+      const enriched = payload.kpisDirect.map((k) => {
+        const gap = Math.max(0, 100 - k.actual);
+        const recId = recIdFromMetricId(k.id);
+        const recSelected = ids.includes(recId);
+        return { ...k, recId: recId, recSelected: recSelected, gap: gap };
+      });
+      const xOrig = enriched.map((k) => k.name);
+      const xWrap = xOrig.map((s) => wrapLabel(s, 14));
+      const traces = [
+        { name: 'Current actual', type: 'bar', x: xOrig, y: enriched.map((k) => k.actual), marker: { color: colors.actual } }
+      ];
+      ['rec1', 'rec2', 'rec3'].forEach((recId) => {
+        traces.push({
+          name: recId.toUpperCase(),
+          type: 'bar',
+          x: xOrig,
+          y: enriched.map((k) => k.recId === recId && k.recSelected ? k.gap : 0),
+          marker: { color: colors[recId + '_core'] || colors[recId] }
+        });
+      });
+      traces.push({ name: 'Remaining gap', type: 'bar', x: xOrig, y: enriched.map((k) => k.recSelected ? 0 : k.gap), marker: { color: colors.gap, opacity: 0.35 } });
+      Plotly.newPlot('clustered', traces, {
+        barmode: 'stack',
+        yaxis: { range: [0, 100], title: '% toward target', gridcolor: '#e5e7eb' },
+        xaxis: { tickvals: xOrig, ticktext: xWrap, automargin: true },
+        margin: { l: 70, r: 20, t: 55, b: 110 },
+        legend: { orientation: 'h', x: 0, xanchor: 'left', y: 1.2, yanchor: 'bottom', bgcolor: 'rgba(255,255,255,0.85)', bordercolor: '#e2e8f0', borderwidth: 1, font: { size: 11 } },
+        paper_bgcolor: '#ffffff', plot_bgcolor: '#f8fafc'
+      }, { responsive: true, displaylogo: false });
+    }
+
+    function drawStacked(ids) {
+      const enriched = applyImprovement(payload.kpisWorkbook, ids);
+      const x = enriched.map((k) => k.name);
+      const traces = [{ name: 'Current actual', type: 'bar', x: x, y: enriched.map((k) => k.actual), marker: { color: colors.actual } }];
+      ['rec1', 'rec2', 'rec3'].forEach((recId) => {
+        traces.push({
+          name: recId.toUpperCase(),
+          type: 'bar',
+          x: x,
+          y: enriched.map((k) => ids.includes(recId) ? impactFor(recId, k.id) : 0),
+          marker: { color: colors[recId + '_core'] || colors[recId] }
+        });
+      });
+      traces.push({ name: 'Remaining gap', type: 'bar', x: x, y: enriched.map((k) => k.remainingGap), marker: { color: colors.gap, opacity: 0.35 } });
+      Plotly.newPlot('stacked', traces, {
+        barmode: 'stack',
+        yaxis: { range: [0, 100], title: '% toward target', gridcolor: '#e5e7eb' },
+        xaxis: { tickangle: -30, automargin: true },
+        margin: { l: 70, r: 20, t: 10, b: 100 },
+        legend: { x: 0.98, xanchor: 'right', y: 0.98, yanchor: 'top', bgcolor: 'rgba(255,255,255,0.85)', bordercolor: '#e2e8f0', borderwidth: 1, font: { size: 11 } },
+        paper_bgcolor: '#ffffff', plot_bgcolor: '#f8fafc'
+      }, { responsive: true, displaylogo: false });
+    }
+
+    function refresh() {
+      const ids = selectedRecs();
+      drawClustered(ids);
+      drawStacked(ids);
+    }
+
+    document.body.addEventListener('change', (e) => { if (e.target.matches('.checkbox')) refresh(); });
+    refresh();
+  </script>
+</body>
+</html>
